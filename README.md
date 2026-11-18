@@ -27,9 +27,11 @@ and the evidence.
   3. Set `WORK_DIR` for the runners, or the probe environment variables documented at the top of each
      probe (`WC_*`, `TS_*`, `SA_*`).
   4. Run `./gradlew :core:test --tests <probe>` with JDK 17.
-- The coefficient experiments (`OR_EXP_BODY_LIFT_K`, `OR_EXP_FIN_STALL_DEG`) need a two-line local patch
-  that makes the body lift constant in `SymmetricComponentCalc` and the fin stall angle in `FinSetCalc`
-  read those variables. It is not included and is for experiments only.
+- The coefficient experiments (`OR_EXP_BODY_LIFT_K`, `OR_EXP_FIN_STALL_DEG`) need
+  `experiment-toggles.patch`, which makes the body lift constant in `SymmetricComponentCalc` and the fin
+  stall angle in `FinSetCalc` read those variables. It is for experiments only.
+- A second, related finding (the reported CP above the fin stall angle) is in
+  [cp-weighting/REPORT.md](cp-weighting/REPORT.md).
 - The rocket is `test01.ork`, attached to the first post of the TRF thread
   "Weathercock simulations all over the place" (thread 186584). It is not redistributed here.
 

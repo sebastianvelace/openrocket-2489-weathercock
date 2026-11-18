@@ -1,0 +1,38 @@
+diff --git a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
+index 3fb6ec7a..02fe3d31 100644
+--- a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
++++ b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
+@@ -229,7 +229,13 @@ public class FinSetCalc extends RocketComponentCalc {
+ 		forces.setCroll(forces.getCrollForce() - forces.getCrollDamp());
+ 		
+ 		forces.setCN(cna * MathUtil.min(conditions.getAOA(), STALL_ANGLE));
+-		forces.setCP(new Coordinate(x, 0, 0, cna));
++		// Weight the CP by the effective CN/alpha, as the body components do, so that the combined CP
++		// stays consistent with the summed CN and Cm once the normal force is capped at the stall angle.
++		double cpWeight = cna;
++		if (conditions.getAOA() > STALL_ANGLE) {
++			cpWeight = forces.getCN() / conditions.getAOA();
++		}
++		forces.setCP(new Coordinate(x, 0, 0, cpWeight));
+ 		forces.setCm(forces.getCN() * x / conditions.getRefLength());
+ 		
+ 		/*
+diff --git a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java
+index 1cd27fc5..7120c893 100644
+--- a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java
++++ b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java
+@@ -178,7 +178,13 @@ public class TubeFinSetCalc extends TubeCalc {
+ 		forces.setCroll(forces.getCrollForce() - forces.getCrollDamp());
+ 
+ 		forces.setCN(cna * MathUtil.min(conditions.getAOA(), STALL_ANGLE));
+-		forces.setCP(new Coordinate(x, 0, 0, cna));
++		// Weight the CP by the effective CN/alpha, as the body components do, so that the combined CP
++		// stays consistent with the summed CN and Cm once the normal force is capped at the stall angle.
++		double cpWeight = cna;
++		if (conditions.getAOA() > STALL_ANGLE) {
++			cpWeight = forces.getCN() / conditions.getAOA();
++		}
++		forces.setCP(new Coordinate(x, 0, 0, cpWeight));
+ 		forces.setCm(forces.getCN() * x / conditions.getRefLength());
+ 
+ 		/*

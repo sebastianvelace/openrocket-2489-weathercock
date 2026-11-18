@@ -1,0 +1,26 @@
+diff --git a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
+index 3fb6ec7a..8bd163bd 100644
+--- a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
++++ b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
+@@ -26,7 +26,7 @@ import info.openrocket.core.util.Transformation;
+ public class FinSetCalc extends RocketComponentCalc {
+ 	
+ 	/** considers the stall angle as 20 degrees*/
+-	private static final double STALL_ANGLE = (20 * Math.PI / 180);
++	private static final double STALL_ANGLE = (Double.parseDouble(System.getenv().getOrDefault("OR_EXP_FIN_STALL_DEG", "20")) * Math.PI / 180); // EXPERIMENT ONLY
+ 	/** Upper end of the small-angle range where NACA 1307 is used without blending. */
+ 	private static final double NACA_LINEAR_ANGLE = (10 * Math.PI / 180);
+ 	
+diff --git a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/SymmetricComponentCalc.java b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/SymmetricComponentCalc.java
+index caeb374e..c962f258 100644
+--- a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/SymmetricComponentCalc.java
++++ b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/SymmetricComponentCalc.java
+@@ -38,7 +38,7 @@ public class SymmetricComponentCalc extends RocketComponentCalc {
+ 
+ 	private final static Logger log = LoggerFactory.getLogger(SymmetricComponentCalc.class);
+ 
+-	public static final double BODY_LIFT_K = 1.1;
++	public static final double BODY_LIFT_K = Double.parseDouble(System.getenv().getOrDefault("OR_EXP_BODY_LIFT_K", "1.1")); // EXPERIMENT ONLY
+ 
+ 	private final double length;
+ 	private final double foreRadius, aftRadius;
