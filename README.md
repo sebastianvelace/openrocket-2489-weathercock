@@ -31,7 +31,8 @@ and the evidence.
   `experiment-toggles.patch`, which makes the body lift constant in `SymmetricComponentCalc` and the fin
   stall angle in `FinSetCalc` read those variables. It is for experiments only.
 - A second, related finding (the reported CP above the fin stall angle) is in
-  [cp-weighting/REPORT.md](cp-weighting/REPORT.md).
+  [cp-weighting/REPORT.md](cp-weighting/REPORT.md), and its consequences for the tumble detector in
+  [cp-weighting/DETECTOR_REPORT.md](cp-weighting/DETECTOR_REPORT.md).
 - The rocket is `test01.ork`, attached to the first post of the TRF thread
   "Weathercock simulations all over the place" (thread 186584). It is not redistributed here.
 

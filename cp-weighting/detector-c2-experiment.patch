@@ -1,0 +1,56 @@
+diff --git a/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java b/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
+index 3c5222bb..d6cb5c81 100644
+--- a/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
++++ b/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
+@@ -347,13 +347,15 @@ public class BasicEventSimulationEngine implements SimulationEngine {
+ 					final double airSpeed = branch.getLast(FlightDataType.TYPE_MACH_NUMBER)
+ 							* branch.getLast(FlightDataType.TYPE_SPEED_OF_SOUND);
+ 
+-					final boolean tumbling = currentStatus.getTumbleDetector().update(
++					// ORACLE ONLY: OR_ORACLE disables the tumble detector to obtain the uninterrupted 6-DOF trajectory
++					final boolean tumbling = System.getenv("OR_ORACLE") == null && currentStatus.getTumbleDetector().update(
+ 							currentStatus.getSimulationTime(),
+ 							currentStatus.isLaunchRodCleared(),
+ 							aoa,
+ 							airSpeed,
+ 							branch.getLast(FlightDataType.TYPE_AIR_DENSITY),
+-							branch.getLast(FlightDataType.TYPE_NATURAL_FREQUENCY));
++							System.getenv("OR_TD_C2") != null ? smallAngleNaturalFrequency(currentStatus, branch)
++									: branch.getLast(FlightDataType.TYPE_NATURAL_FREQUENCY));
+ 
+ 					if (tumbling) {
+ 						currentStatus.addEvent(new FlightEvent(FlightEvent.Type.TUMBLE, currentStatus.getSimulationTime()));
+@@ -388,6 +390,33 @@ public class BasicEventSimulationEngine implements SimulationEngine {
+ 	 * Each event that has occurred before or at the current simulation time is
+ 	 * processed.  Suitable events are also added to the flight data.
+ 	 */
++	// EXPERIMENT (candidate C2): pitch natural frequency evaluated at a near-zero angle of attack, i.e. with the
++	// aerodynamic model inside its validity envelope, instead of at the current (possibly post-stall) angle.
++	private info.openrocket.core.aerodynamics.BarrowmanCalculator smallAngleCalc;
++
++	private double smallAngleNaturalFrequency(SimulationStatus status, FlightDataBranch branch) {
++		double mach = branch.getLast(FlightDataType.TYPE_MACH_NUMBER);
++		double sound = branch.getLast(FlightDataType.TYPE_SPEED_OF_SOUND);
++		double rho = branch.getLast(FlightDataType.TYPE_AIR_DENSITY);
++		double cg = branch.getLast(FlightDataType.TYPE_CG_LOCATION);
++		double inertia = branch.getLast(FlightDataType.TYPE_LONGITUDINAL_INERTIA);
++		if (Double.isNaN(mach) || mach <= 0 || !(inertia > 0)) {
++			return Double.NaN;
++		}
++		if (smallAngleCalc == null) {
++			smallAngleCalc = new info.openrocket.core.aerodynamics.BarrowmanCalculator();
++		}
++		info.openrocket.core.aerodynamics.FlightConditions fc =
++				new info.openrocket.core.aerodynamics.FlightConditions(status.getConfiguration());
++		fc.setMach(mach);
++		fc.setAOA(1e-4);
++		info.openrocket.core.aerodynamics.AerodynamicForces f = smallAngleCalc.getAerodynamicForces(
++				status.getConfiguration(), fc, new WarningSet());
++		double v = mach * sound;
++		double ccm = 0.5 * rho * v * v * fc.getRefArea() * f.getCP().getWeight() * (f.getCP().getX() - cg);
++		return ccm > 0 ? Math.sqrt(ccm / inertia) : Double.NaN;
++	}
++
+ 	private boolean handleEvents(SimulationConditions simulationConditions) throws SimulationException {
+ 		boolean ret = true;
+ 		FlightEvent event;

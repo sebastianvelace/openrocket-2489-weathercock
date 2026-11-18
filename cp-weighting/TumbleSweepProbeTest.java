@@ -49,6 +49,59 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 		}
 	}
 
+	/**
+	 * Records, after every step, the small-angle pitch natural frequency: the corrective moment coefficient
+	 * evaluated at a near-zero angle of attack (inside the aerodynamic model's validity envelope) at the
+	 * current Mach number, CG, inertia and dynamic pressure. Static writer: listeners are cloned.
+	 */
+	public static class Omega0Recorder extends AbstractSimulationListener {
+		static PrintWriter out;
+		private transient info.openrocket.core.aerodynamics.BarrowmanCalculator calc;
+
+		@Override
+		public void postStep(SimulationStatus status) {
+			if (out == null) {
+				return;
+			}
+			FlightDataBranch b = status.getFlightDataBranch();
+			double mach = b.getLast(FlightDataType.TYPE_MACH_NUMBER);
+			double sound = b.getLast(FlightDataType.TYPE_SPEED_OF_SOUND);
+			double rho = b.getLast(FlightDataType.TYPE_AIR_DENSITY);
+			double cg = b.getLast(FlightDataType.TYPE_CG_LOCATION);
+			double inertia = b.getLast(FlightDataType.TYPE_LONGITUDINAL_INERTIA);
+			double v = mach * sound;
+			double q = 0.5 * rho * v * v;
+			double omega0 = Double.NaN;
+			if (!Double.isNaN(mach) && mach > 0 && inertia > 0) {
+				if (calc == null) {
+					calc = new info.openrocket.core.aerodynamics.BarrowmanCalculator();
+				}
+				info.openrocket.core.aerodynamics.FlightConditions fc =
+						new info.openrocket.core.aerodynamics.FlightConditions(status.getConfiguration());
+				fc.setMach(mach);
+				fc.setAOA(1e-4);
+				info.openrocket.core.aerodynamics.AerodynamicForces f = calc.getAerodynamicForces(
+						status.getConfiguration(), fc, new info.openrocket.core.logging.WarningSet());
+				double ccm = q * fc.getRefArea() * f.getCP().getWeight() * (f.getCP().getX() - cg);
+				omega0 = ccm > 0 ? Math.sqrt(ccm / inertia) : Double.NaN;
+			}
+			out.println(String.format(Locale.ROOT, "%s\t%.10g\t%.10g\t%.10g", b.getName(),
+					status.getSimulationTime(), omega0, q));
+		}
+
+		@Override
+		public Omega0Recorder clone() {
+			Omega0Recorder c = (Omega0Recorder) super.clone();
+			c.calc = null;
+			return c;
+		}
+
+		@Override
+		public boolean isSystemListener() {
+			return true;
+		}
+	}
+
 	@BeforeAll
 	public static void loadDatabases() throws Exception {
 		info.openrocket.core.file.openrocket.ExampleFilesTest.setUp();
@@ -69,7 +122,7 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 			throw new IllegalStateException("SW_DUMP_ALL needs SW_DUMP_DIR");
 		}
 		try (PrintWriter pw = new PrintWriter(new FileWriter(System.getenv("SW_OUT")))) {
-			pw.println("rocket\tsim\twind\trec\tbranch\ttumble_t\tburnout_t\tapogee_m\tland_t\tabort\tt_aoa_20_90\tn_points\tdeploy_t\tabort_t\tlaunchrod_t");
+			pw.println("rocket\tsim\twind\trec\tbranch\ttumble_t\tburnout_t\tapogee_m\tland_t\tabort\tt_aoa_20_90\tn_points\tdeploy_t\tabort_t\tlaunchrod_t\tbranch_name");
 			for (File ork : orks) {
 				String name = ork.getName().replace(".ork", "").replace(' ', '_');
 				int nSims = new GeneralRocketLoader(ork).load().getSimulations().size();
@@ -106,12 +159,23 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 									}
 								}
 							}
+							boolean dumpThis = onlyDump || "1".equals(System.getenv("SW_DUMP_ALL"));
+							PrintWriter omegaOut = dumpThis
+									? new PrintWriter(new FileWriter(new File(dumpDir, key.replace('|', '_') + "_omega0.tsv")))
+									: null;
+							Omega0Recorder.out = omegaOut;
 							try {
-								sim.simulate(new SteadyWind(Double.parseDouble(ws)));
+								sim.simulate(new SteadyWind(Double.parseDouble(ws)), new Omega0Recorder());
 							} catch (Exception e) {
 								pw.println(name + "\t" + s + "\t" + ws + "\t" + rec + "\t-\tNaN\tNaN\tNaN\tNaN\tEXCEPTION:"
 										+ e.getClass().getSimpleName() + "\tNaN\t0");
 								continue;
+							}
+							finally {
+								Omega0Recorder.out = null;
+								if (omegaOut != null) {
+									omegaOut.close();
+								}
 							}
 							FlightData fd = sim.getSimulatedData();
 							if (onlyDump || "1".equals(System.getenv("SW_DUMP_ALL"))) {
@@ -128,7 +192,8 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 										abortCause(b), timeAoaBand(b), b.getLength())
 										+ String.format(Locale.ROOT, "\t%.6f\t%.6f\t%.6f",
 												time(b, FlightEvent.Type.RECOVERY_DEVICE_DEPLOYMENT),
-												time(b, FlightEvent.Type.SIM_ABORT), time(b, FlightEvent.Type.LAUNCHROD)));
+												time(b, FlightEvent.Type.SIM_ABORT), time(b, FlightEvent.Type.LAUNCHROD))
+										+ "\t" + b.getName());
 							}
 						}
 					}
@@ -184,7 +249,9 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 				FlightDataType.TYPE_THRUST_FORCE, FlightDataType.TYPE_PITCH_RATE, FlightDataType.TYPE_POSITION_X,
 				FlightDataType.TYPE_VELOCITY_XY, FlightDataType.TYPE_NORMAL_FORCE_COEFF,
 				FlightDataType.TYPE_PITCH_MOMENT_COEFF, FlightDataType.TYPE_PITCH_DAMPING_MOMENT_COEFF,
-				FlightDataType.TYPE_TIME_STEP, FlightDataType.TYPE_YAW_RATE, FlightDataType.TYPE_ROLL_RATE };
+				FlightDataType.TYPE_TIME_STEP, FlightDataType.TYPE_YAW_RATE, FlightDataType.TYPE_ROLL_RATE,
+				FlightDataType.TYPE_MACH_NUMBER, FlightDataType.TYPE_SPEED_OF_SOUND, FlightDataType.TYPE_AIR_DENSITY,
+				FlightDataType.TYPE_LONGITUDINAL_INERTIA };
 		try (PrintWriter dw = new PrintWriter(new FileWriter(f))) {
 			StringBuilder h = new StringBuilder();
 			for (FlightDataType c : cols) {

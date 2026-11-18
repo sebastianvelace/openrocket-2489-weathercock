@@ -1,0 +1,771 @@
+rocket	sim	wind	rec	branch	tumble_t	burnout_t	apogee_m	land_t	abort	t_aoa_20_90	n_points	deploy_t	abort_t	launchrod_t	branch_name
+3D_printable_nose_cone_and_fins	0	0	0	0	NaN	0.730000	38.987717	6.512902	-	0.000000	674	NaN	NaN	0.257171	Sustainer
+3D_printable_nose_cone_and_fins	0	1	0	0	NaN	0.730000	38.864443	6.452524	-	0.250000	262	NaN	NaN	0.257165	Sustainer
+3D_printable_nose_cone_and_fins	0	2	0	0	NaN	0.730000	38.542070	6.408743	-	0.550000	520	NaN	NaN	0.257158	Sustainer
+3D_printable_nose_cone_and_fins	0	3	0	0	NaN	0.730000	38.072851	6.519901	-	1.080502	835	NaN	NaN	0.257154	Sustainer
+3D_printable_nose_cone_and_fins	0	4	0	0	NaN	0.730000	37.499065	6.030789	-	0.994417	402	NaN	NaN	0.257153	Sustainer
+3D_printable_nose_cone_and_fins	0	5	0	0	NaN	0.730000	36.867358	5.859523	-	0.000000	400	NaN	NaN	0.257154	Sustainer
+3D_printable_nose_cone_and_fins	0	6	0	0	NaN	0.730000	36.294308	5.784575	-	0.000000	379	NaN	NaN	0.257155	Sustainer
+3D_printable_nose_cone_and_fins	0	7	0	0	NaN	0.730000	36.013699	5.772776	-	0.000000	383	NaN	NaN	0.257158	Sustainer
+3D_printable_nose_cone_and_fins	0	8	0	0	NaN	0.730000	36.117589	5.779265	-	0.000000	413	NaN	NaN	0.257161	Sustainer
+3D_printable_nose_cone_and_fins	0	9	0	0	NaN	0.730000	36.450526	5.839884	-	0.000000	467	NaN	NaN	0.257166	Sustainer
+3D_printable_nose_cone_and_fins	0	10	0	0	NaN	0.730000	17.980795	4.085646	-	1.295098	1131	NaN	NaN	0.257173	Sustainer
+3D_printable_nose_cone_and_fins	1	0	0	0	NaN	0.860000	112.650287	16.132225	-	0.000000	1279	NaN	NaN	0.215488	Sustainer
+3D_printable_nose_cone_and_fins	1	1	0	0	NaN	0.860000	112.421858	16.033755	-	0.320583	565	NaN	NaN	0.215489	Sustainer
+3D_printable_nose_cone_and_fins	1	2	0	0	NaN	0.860000	111.795028	16.054226	-	1.096086	1566	NaN	NaN	0.215491	Sustainer
+3D_printable_nose_cone_and_fins	1	3	0	0	NaN	0.860000	110.828252	10.069838	-	0.599250	603	NaN	NaN	0.215492	Sustainer
+3D_printable_nose_cone_and_fins	1	4	0	0	NaN	0.860000	109.591491	9.934376	-	0.000000	521	NaN	NaN	0.215493	Sustainer
+3D_printable_nose_cone_and_fins	1	5	0	0	NaN	0.860000	108.174006	9.834026	-	0.000000	455	NaN	NaN	0.215493	Sustainer
+3D_printable_nose_cone_and_fins	1	6	0	0	NaN	0.860000	106.659785	9.770293	-	0.000000	454	NaN	NaN	0.215493	Sustainer
+3D_printable_nose_cone_and_fins	1	7	0	0	NaN	0.860000	105.299203	9.710000	-	0.000000	477	NaN	NaN	0.215492	Sustainer
+3D_printable_nose_cone_and_fins	1	8	0	0	NaN	0.860000	104.386767	9.652030	-	0.000000	500	NaN	NaN	0.215492	Sustainer
+3D_printable_nose_cone_and_fins	1	9	0	0	NaN	0.860000	104.076417	9.660059	-	0.000000	519	NaN	NaN	0.215491	Sustainer
+3D_printable_nose_cone_and_fins	1	10	0	0	NaN	0.860000	104.506751	9.660000	-	0.000000	541	NaN	NaN	0.215490	Sustainer
+3D_printable_nose_cone_and_fins	2	0	0	0	NaN	1.860000	273.815609	36.586052	-	0.000000	1439	NaN	NaN	0.215170	Sustainer
+3D_printable_nose_cone_and_fins	2	1	0	0	NaN	1.860000	273.144619	36.392563	-	0.500000	1432	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	2	2	0	0	NaN	1.860000	271.253734	16.063797	-	0.592264	695	NaN	NaN	0.215172	Sustainer
+3D_printable_nose_cone_and_fins	2	3	0	0	NaN	1.860000	268.358280	15.852971	-	0.000000	526	NaN	NaN	0.215172	Sustainer
+3D_printable_nose_cone_and_fins	2	4	0	0	NaN	1.860000	264.769817	15.742228	-	0.000000	495	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	2	5	0	0	NaN	1.860000	260.803945	15.603438	-	0.000000	527	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	2	6	0	0	NaN	1.860000	256.734864	15.510000	-	0.000000	551	NaN	NaN	0.215170	Sustainer
+3D_printable_nose_cone_and_fins	2	7	0	0	NaN	1.860000	253.374417	15.379389	-	0.000000	577	NaN	NaN	0.215169	Sustainer
+3D_printable_nose_cone_and_fins	2	8	0	0	NaN	1.860000	252.082928	15.325521	-	0.000000	604	NaN	NaN	0.215168	Sustainer
+3D_printable_nose_cone_and_fins	2	9	0	0	NaN	1.860000	254.120404	15.428370	-	0.000000	636	NaN	NaN	0.215167	Sustainer
+3D_printable_nose_cone_and_fins	2	10	0	0	NaN	1.860000	262.760395	15.690127	-	0.000000	691	NaN	NaN	0.215165	Sustainer
+3D_printable_nose_cone_and_fins	3	0	0	0	NaN	1.860000	273.815609	36.590380	-	0.000000	1406	NaN	NaN	0.215170	Sustainer
+3D_printable_nose_cone_and_fins	3	1	0	0	NaN	1.860000	273.144627	36.379787	-	0.500000	1431	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	3	2	0	0	NaN	1.860000	271.253757	16.095258	-	0.592269	696	NaN	NaN	0.215172	Sustainer
+3D_printable_nose_cone_and_fins	3	3	0	0	NaN	1.860000	268.358279	15.854660	-	0.000000	526	NaN	NaN	0.215172	Sustainer
+3D_printable_nose_cone_and_fins	3	4	0	0	NaN	1.860000	264.769816	15.742227	-	0.000000	495	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	3	5	0	0	NaN	1.860000	260.803935	15.603438	-	0.000000	527	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	3	6	0	0	NaN	1.860000	256.734863	15.510000	-	0.000000	551	NaN	NaN	0.215170	Sustainer
+3D_printable_nose_cone_and_fins	3	7	0	0	NaN	1.860000	253.374397	15.379389	-	0.000000	577	NaN	NaN	0.215169	Sustainer
+3D_printable_nose_cone_and_fins	3	8	0	0	NaN	1.860000	252.082947	15.325521	-	0.000000	604	NaN	NaN	0.215168	Sustainer
+3D_printable_nose_cone_and_fins	3	9	0	0	NaN	1.860000	254.120417	15.428370	-	0.000000	636	NaN	NaN	0.215167	Sustainer
+3D_printable_nose_cone_and_fins	3	10	0	0	NaN	1.860000	262.760392	15.690073	-	0.000000	691	NaN	NaN	0.215165	Sustainer
+3D_printable_nose_cone_and_fins	4	0	0	0	NaN	1.860000	273.816065	36.618218	-	0.000000	1709	NaN	NaN	0.215170	Sustainer
+3D_printable_nose_cone_and_fins	4	1	0	0	NaN	1.860000	273.145039	36.398392	-	0.500000	1425	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	4	2	0	0	NaN	1.860000	271.254047	16.058940	-	0.591277	693	NaN	NaN	0.215172	Sustainer
+3D_printable_nose_cone_and_fins	4	3	0	0	NaN	1.860000	268.358157	15.856951	-	0.000000	527	NaN	NaN	0.215172	Sustainer
+3D_printable_nose_cone_and_fins	4	4	0	0	NaN	1.860000	264.768707	15.736990	-	0.000000	497	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	4	5	0	0	NaN	1.860000	260.804932	15.603438	-	0.000000	527	NaN	NaN	0.215171	Sustainer
+3D_printable_nose_cone_and_fins	4	6	0	0	NaN	1.860000	256.735035	15.510000	-	0.000000	551	NaN	NaN	0.215170	Sustainer
+3D_printable_nose_cone_and_fins	4	7	0	0	NaN	1.860000	253.372872	15.379389	-	0.000000	577	NaN	NaN	0.215169	Sustainer
+3D_printable_nose_cone_and_fins	4	8	0	0	NaN	1.860000	252.085172	15.325521	-	0.000000	604	NaN	NaN	0.215168	Sustainer
+3D_printable_nose_cone_and_fins	4	9	0	0	NaN	1.860000	254.120633	15.428370	-	0.000000	636	NaN	NaN	0.215167	Sustainer
+3D_printable_nose_cone_and_fins	4	10	0	0	NaN	1.860000	262.760704	15.694767	-	0.000000	692	NaN	NaN	0.215165	Sustainer
+A_simple_model_rocket	0	0	0	0	NaN	0.730000	51.015117	7.974994	-	1.751626	608	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	1	0	0	NaN	0.730000	50.877199	7.173512	-	1.191380	746	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	2	0	0	NaN	0.730000	50.491864	6.939931	-	1.391868	731	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	3	0	0	NaN	0.730000	49.876950	6.786707	-	0.179142	646	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	4	0	0	NaN	0.730000	49.054310	6.678109	-	0.000000	514	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	5	0	0	NaN	0.730000	48.059065	6.603684	-	0.000000	436	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	6	0	0	NaN	0.730000	46.936061	6.543491	-	0.000000	456	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	7	0	0	NaN	0.730000	45.807465	6.440132	-	0.000000	484	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	8	0	0	NaN	0.730000	44.748025	6.385537	-	0.000000	507	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	9	0	0	NaN	0.730000	43.791615	6.317100	-	0.000000	533	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	0	10	0	0	NaN	0.730000	42.947403	6.234009	-	0.000000	549	NaN	NaN	0.247000	Sustainer
+A_simple_model_rocket	1	0	0	0	NaN	1.030000	136.377204	12.854522	-	1.801315	1281	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	1	0	0	NaN	1.030000	136.072406	11.428800	-	1.370902	982	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	2	0	0	NaN	1.030000	135.178331	11.133386	-	0.727861	815	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	3	0	0	NaN	1.030000	133.715327	10.943982	-	0.000000	587	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	4	0	0	NaN	1.030000	131.755443	10.865194	-	0.000000	507	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	5	0	0	NaN	1.030000	129.383640	10.780000	-	0.000000	538	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	6	0	0	NaN	1.030000	126.682011	10.680000	-	0.000000	571	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	7	0	0	NaN	1.030000	123.741893	10.555099	-	0.000000	591	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	8	0	0	NaN	1.030000	120.845266	10.399787	-	0.000000	612	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	9	0	0	NaN	1.030000	118.135181	10.311242	-	0.000000	626	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	1	10	0	0	NaN	1.030000	115.658908	10.203553	-	0.000000	642	NaN	NaN	0.187000	Sustainer
+A_simple_model_rocket	2	0	0	0	NaN	1.860000	321.457819	19.302887	-	1.786004	1300	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	1	0	0	NaN	1.860000	320.763183	17.607570	-	1.554363	1083	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	2	0	0	NaN	1.860000	318.715821	17.288334	-	0.000000	779	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	3	0	0	NaN	1.860000	315.407450	17.155155	-	0.000000	586	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	4	0	0	NaN	1.860000	311.023878	16.999883	-	0.000000	616	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	5	0	0	NaN	1.860000	305.749031	16.853384	-	0.000000	657	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	6	0	0	NaN	1.860000	299.759577	16.657464	-	0.000000	683	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	7	0	0	NaN	1.860000	293.266276	16.488254	-	0.000000	709	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	8	0	0	NaN	1.860000	286.907311	16.310000	-	0.000000	721	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	9	0	0	NaN	1.860000	281.042667	16.132529	-	0.000000	738	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	2	10	0	0	NaN	1.860000	275.820197	15.960000	-	0.000000	742	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	0	0	0	NaN	1.860000	321.457818	19.311554	-	1.773860	1315	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	1	0	0	NaN	1.860000	320.763184	17.611688	-	1.554319	1083	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	2	0	0	NaN	1.860000	318.715820	17.288224	-	0.000000	779	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	3	0	0	NaN	1.860000	315.407448	17.155069	-	0.000000	586	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	4	0	0	NaN	1.860000	311.023876	16.999883	-	0.000000	616	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	5	0	0	NaN	1.860000	305.749023	16.853384	-	0.000000	657	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	6	0	0	NaN	1.860000	299.759578	16.657464	-	0.000000	683	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	7	0	0	NaN	1.860000	293.266275	16.488254	-	0.000000	709	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	8	0	0	NaN	1.860000	286.907311	16.310000	-	0.000000	721	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	9	0	0	NaN	1.860000	281.042661	16.132529	-	0.000000	738	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	3	10	0	0	NaN	1.860000	275.820196	15.960000	-	0.000000	742	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	0	0	0	NaN	1.860000	321.457185	19.271705	-	1.776602	1349	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	1	0	0	NaN	1.860000	320.762574	17.615944	-	1.552174	1079	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	2	0	0	NaN	1.860000	318.715722	17.295731	-	0.000000	775	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	3	0	0	NaN	1.860000	315.407326	17.130623	-	0.000000	586	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	4	0	0	NaN	1.860000	311.023702	16.999883	-	0.000000	616	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	5	0	0	NaN	1.860000	305.747655	16.853384	-	0.000000	657	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	6	0	0	NaN	1.860000	299.760137	16.657464	-	0.000000	683	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	7	0	0	NaN	1.860000	293.266413	16.488254	-	0.000000	709	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	8	0	0	NaN	1.860000	286.907636	16.310000	-	0.000000	721	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	9	0	0	NaN	1.860000	281.043075	16.132529	-	0.000000	738	NaN	NaN	0.209000	Sustainer
+A_simple_model_rocket	4	10	0	0	NaN	1.860000	275.821627	15.960000	-	0.000000	742	NaN	NaN	0.209000	Sustainer
+ARC_payload_rocket	0	0	0	0	NaN	1.430000	451.100874	22.377013	-	0.911427	3385	NaN	NaN	0.110906	Payload
+ARC_payload_rocket	0	0	0	1	NaN	1.430000	451.100874	52.468898	-	1.281311	1707	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	1	0	0	NaN	1.430000	450.833090	21.589700	-	0.250000	2941	NaN	NaN	0.110910	Payload
+ARC_payload_rocket	0	1	0	1	NaN	1.430000	450.833090	52.759223	-	0.250000	1420	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	2	0	0	NaN	1.430000	450.074759	21.347651	-	0.500000	2806	NaN	NaN	0.110917	Payload
+ARC_payload_rocket	0	2	0	1	NaN	1.430000	450.074759	53.084144	-	0.500000	1364	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	3	0	0	NaN	1.430000	448.865027	23.431979	-	3.405556	4044	NaN	NaN	0.110922	Payload
+ARC_payload_rocket	0	3	0	1	NaN	1.430000	448.865027	25.703122	-	2.004132	774	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	4	0	0	NaN	1.430000	447.242053	33.564479	-	10.171578	8418	NaN	NaN	0.110925	Payload
+ARC_payload_rocket	0	4	0	1	NaN	1.430000	447.242053	25.350370	-	1.201578	762	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	5	0	0	NaN	1.430000	445.240537	33.227800	-	8.795000	8294	NaN	NaN	0.110925	Payload
+ARC_payload_rocket	0	5	0	1	NaN	1.430000	445.240537	25.041397	-	0.000000	725	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	6	0	0	NaN	1.430000	442.905435	33.052319	-	8.787500	8208	NaN	NaN	0.110925	Payload
+ARC_payload_rocket	0	6	0	1	NaN	1.430000	442.905435	24.885300	-	0.000000	710	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	7	0	0	NaN	1.430000	440.283987	32.853828	-	8.710000	8225	NaN	NaN	0.110924	Payload
+ARC_payload_rocket	0	7	0	1	NaN	1.430000	440.283987	24.720932	-	0.000000	697	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	8	0	0	NaN	1.430000	437.501353	32.626135	-	8.585000	8072	NaN	NaN	0.110923	Payload
+ARC_payload_rocket	0	8	0	1	NaN	1.430000	437.501353	24.617370	-	0.000000	682	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	9	0	0	NaN	1.430000	434.777853	32.518654	-	8.547500	8070	NaN	NaN	0.110921	Payload
+ARC_payload_rocket	0	9	0	1	NaN	1.430000	434.777853	24.480000	-	0.000000	685	NaN	NaN	NaN	Booster stage
+ARC_payload_rocket	0	10	0	0	NaN	1.430000	432.213005	32.355961	-	8.480000	8034	NaN	NaN	0.110919	Payload
+ARC_payload_rocket	0	10	0	1	NaN	1.430000	432.213005	24.380000	-	0.000000	694	NaN	NaN	NaN	Booster stage
+Airstart_timing	0	0	0	0	NaN	2.324000	1313.633383	39.010561	-	4.706972	1242	NaN	NaN	0.173855	Sustainer
+Airstart_timing	0	1	0	0	NaN	2.324000	1313.126437	37.320211	-	4.564996	1112	NaN	NaN	0.173856	Sustainer
+Airstart_timing	0	2	0	0	NaN	2.324000	1311.628682	35.691136	-	3.704561	982	NaN	NaN	0.173857	Sustainer
+Airstart_timing	0	3	0	0	NaN	2.324000	1309.124253	34.722999	-	3.645047	886	NaN	NaN	0.173858	Sustainer
+Airstart_timing	0	4	0	0	NaN	2.324000	1305.560795	34.297698	-	2.191086	821	NaN	NaN	0.173859	Sustainer
+Airstart_timing	0	5	0	0	NaN	2.324000	1300.897527	34.018107	-	0.121997	775	NaN	NaN	0.173859	Sustainer
+Airstart_timing	0	6	0	0	NaN	2.324000	1295.134942	33.824250	-	0.000000	754	NaN	NaN	0.173858	Sustainer
+Airstart_timing	0	7	0	0	NaN	2.324000	1288.464268	33.706000	-	0.000000	754	NaN	NaN	0.173858	Sustainer
+Airstart_timing	0	8	0	0	NaN	2.324000	1281.033335	33.604000	-	0.000000	760	NaN	NaN	0.173857	Sustainer
+Airstart_timing	0	9	0	0	NaN	2.324000	1272.954544	33.454000	-	0.000000	764	NaN	NaN	0.173857	Sustainer
+Airstart_timing	0	10	0	0	NaN	2.324000	1264.325254	33.354000	-	0.000000	771	NaN	NaN	0.173856	Sustainer
+Airstart_timing	1	0	0	0	NaN	3.324000	1288.766661	39.125322	-	4.730786	1239	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	1	0	0	NaN	3.324000	1287.462300	36.439035	-	3.865408	1028	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	2	0	0	NaN	3.324000	1283.524027	34.753581	-	3.218541	865	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	3	0	0	NaN	3.324000	1276.707626	34.218425	-	0.283168	780	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	4	0	0	NaN	3.324000	1266.964843	33.904000	-	0.000000	750	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	5	0	0	NaN	3.324000	1254.952497	33.704000	-	0.000000	743	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	6	0	0	NaN	3.324000	1241.183639	33.504000	-	0.000000	753	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	7	0	0	NaN	3.324000	1225.992968	33.304000	-	0.000000	753	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	8	0	0	NaN	3.324000	1209.775588	33.054000	-	0.000000	753	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	9	0	0	NaN	3.324000	1192.636841	32.804000	-	0.000000	755	NaN	NaN	0.269125	Sustainer
+Airstart_timing	1	10	0	0	NaN	3.324000	1175.216646	32.552372	-	0.034884	751	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	0	0	0	NaN	3.356000	1292.841432	39.685432	-	4.751303	1226	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	1	0	0	NaN	3.356000	1291.328266	36.772977	-	3.803871	998	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	2	0	0	NaN	3.356000	1286.751010	35.199882	-	2.755256	834	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	3	0	0	NaN	3.356000	1278.839250	34.675979	-	0.000000	754	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	4	0	0	NaN	3.356000	1267.593705	34.441500	-	0.000000	738	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	5	0	0	NaN	3.356000	1253.817901	34.199000	-	0.000000	733	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	6	0	0	NaN	3.356000	1238.074020	33.999000	-	0.000000	736	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	7	0	0	NaN	3.356000	1220.795468	33.741500	-	0.000000	734	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	8	0	0	NaN	3.356000	1202.344929	33.491500	-	0.000000	727	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	9	0	0	NaN	3.356000	1182.946975	33.196371	-	0.000000	736	NaN	NaN	0.269125	Sustainer
+Airstart_timing	2	10	0	0	NaN	3.356000	1163.161282	32.934966	-	0.034884	733	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	0	0	0	NaN	3.356000	1301.255177	40.939153	-	4.701301	1241	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	1	0	0	NaN	3.356000	1299.141374	37.549799	-	3.647886	971	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	2	0	0	NaN	3.356000	1292.676634	36.198194	-	1.813884	811	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	3	0	0	NaN	3.356000	1281.526241	35.810000	-	0.000000	756	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	4	0	0	NaN	3.356000	1265.897411	35.510000	-	0.000000	750	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	5	0	0	NaN	3.356000	1247.021134	35.260000	-	0.000000	745	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	6	0	0	NaN	3.356000	1225.730492	34.960000	-	0.000000	739	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	7	0	0	NaN	3.356000	1202.654298	34.610000	-	0.000000	739	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	8	0	0	NaN	3.356000	1178.308644	34.260000	-	0.000000	731	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	9	0	0	NaN	3.356000	1153.047771	33.910000	-	0.000000	736	NaN	NaN	0.269125	Sustainer
+Airstart_timing	3	10	0	0	NaN	3.356000	1127.747928	33.524000	-	0.034884	729	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	0	0	0	NaN	3.356000	1272.099553	41.822861	-	4.685441	1257	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	1	0	0	NaN	3.356000	1268.866051	37.831398	-	3.930093	928	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	2	0	0	NaN	3.356000	1258.761759	36.845851	-	0.000000	783	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	3	0	0	NaN	3.356000	1241.478278	36.460000	-	0.000000	769	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	4	0	0	NaN	3.356000	1217.739182	36.110000	-	0.000000	762	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	5	0	0	NaN	3.356000	1189.620843	35.710000	-	0.000000	754	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	6	0	0	NaN	3.356000	1158.531335	35.260000	-	0.000000	745	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	7	0	0	NaN	3.356000	1125.519977	34.760000	-	0.000000	742	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	8	0	0	NaN	3.356000	1091.425007	34.210000	-	0.000000	730	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	9	0	0	NaN	3.356000	1056.821713	33.660000	-	0.000000	731	NaN	NaN	0.269125	Sustainer
+Airstart_timing	4	10	0	0	NaN	3.356000	1022.910265	33.124000	-	0.034884	721	NaN	NaN	0.269125	Sustainer
+Chute_release	0	0	0	0	NaN	2.300000	309.586749	18.396994	-	2.288566	1593	NaN	NaN	0.349500	Sustainer
+Chute_release	0	1	0	0	NaN	2.300000	308.925958	17.282499	-	2.406508	1105	NaN	NaN	0.349500	Sustainer
+Chute_release	0	2	0	0	NaN	2.300000	306.941975	16.880719	-	0.143932	713	NaN	NaN	0.349500	Sustainer
+Chute_release	0	3	0	0	NaN	2.300000	303.617138	16.685207	-	0.000000	497	NaN	NaN	0.349500	Sustainer
+Chute_release	0	4	0	0	NaN	2.300000	299.048403	16.584184	-	0.000000	510	NaN	NaN	0.349500	Sustainer
+Chute_release	0	5	0	0	NaN	2.300000	293.368797	16.383182	-	0.000000	546	NaN	NaN	0.349500	Sustainer
+Chute_release	0	6	0	0	NaN	2.300000	286.699545	16.225795	-	0.000000	590	NaN	NaN	0.349500	Sustainer
+Chute_release	0	7	0	0	NaN	2.300000	279.183025	16.010627	-	0.000000	628	NaN	NaN	0.349500	Sustainer
+Chute_release	0	8	0	0	NaN	2.300000	271.359297	15.782666	-	0.000000	672	NaN	NaN	0.349500	Sustainer
+Chute_release	0	9	0	0	NaN	2.300000	263.456337	15.541510	-	0.000000	708	NaN	NaN	0.349500	Sustainer
+Chute_release	0	10	0	0	NaN	2.300000	255.522664	15.337166	-	0.000000	736	NaN	NaN	0.349500	Sustainer
+Chute_release	1	0	0	0	NaN	1.701000	512.645602	22.806392	-	2.269035	1761	NaN	NaN	0.268000	Sustainer
+Chute_release	1	1	0	0	NaN	1.701000	512.066789	21.802674	-	2.060975	1358	NaN	NaN	0.268000	Sustainer
+Chute_release	1	2	0	0	NaN	1.701000	510.338316	21.352054	-	1.014700	968	NaN	NaN	0.268000	Sustainer
+Chute_release	1	3	0	0	NaN	1.701000	507.432153	21.150309	-	0.000000	702	NaN	NaN	0.268000	Sustainer
+Chute_release	1	4	0	0	NaN	1.701000	503.385462	21.028798	-	0.000000	635	NaN	NaN	0.268000	Sustainer
+Chute_release	1	5	0	0	NaN	1.701000	498.274646	20.944643	-	0.000000	682	NaN	NaN	0.268000	Sustainer
+Chute_release	1	6	0	0	NaN	1.701000	492.172533	20.817088	-	0.000000	729	NaN	NaN	0.268000	Sustainer
+Chute_release	1	7	0	0	NaN	1.701000	485.155565	20.644057	-	0.000000	765	NaN	NaN	0.268000	Sustainer
+Chute_release	1	8	0	0	NaN	1.701000	477.298699	20.501000	-	0.000000	796	NaN	NaN	0.268000	Sustainer
+Chute_release	1	9	0	0	NaN	1.701000	468.724443	20.281836	-	0.000000	827	NaN	NaN	0.268000	Sustainer
+Chute_release	1	10	0	0	NaN	1.701000	459.867019	20.119383	-	0.000000	847	NaN	NaN	0.268000	Sustainer
+Clustered_motors	0	0	0	0	NaN	0.730000	58.140781	9.507154	-	0.000000	393	NaN	NaN	0.241359	Sustainer
+Clustered_motors	0	1	0	0	NaN	0.730000	58.031324	9.741542	-	0.250000	265	NaN	NaN	0.241359	Sustainer
+Clustered_motors	0	2	0	0	NaN	0.730000	57.720312	9.612079	-	0.445101	317	NaN	NaN	0.241364	Sustainer
+Clustered_motors	0	3	0	0	NaN	0.730000	57.245422	9.253810	-	1.729241	554	NaN	NaN	0.241366	Sustainer
+Clustered_motors	0	4	0	0	NaN	0.730000	56.633576	7.426038	-	1.226504	343	NaN	NaN	0.241366	Sustainer
+Clustered_motors	0	5	0	0	NaN	0.730000	55.902202	7.180266	-	0.000000	337	NaN	NaN	0.241366	Sustainer
+Clustered_motors	0	6	0	0	NaN	0.730000	55.080596	7.092765	-	0.000000	317	NaN	NaN	0.241364	Sustainer
+Clustered_motors	0	7	0	0	NaN	0.730000	54.234607	7.035882	-	0.000000	302	NaN	NaN	0.241362	Sustainer
+Clustered_motors	0	8	0	0	NaN	0.730000	53.480002	6.953368	-	0.000000	301	NaN	NaN	0.241359	Sustainer
+Clustered_motors	0	9	0	0	NaN	0.730000	52.873984	6.931925	-	0.000000	305	NaN	NaN	0.241355	Sustainer
+Clustered_motors	0	10	0	0	NaN	0.730000	52.432277	6.864460	-	0.000000	309	NaN	NaN	0.241349	Sustainer
+Clustered_motors	1	0	0	0	NaN	1.030000	142.679518	20.779433	-	0.000000	611	NaN	NaN	0.184193	Sustainer
+Clustered_motors	1	1	0	0	NaN	1.030000	142.469159	21.010050	-	0.250000	491	NaN	NaN	0.184195	Sustainer
+Clustered_motors	1	2	0	0	NaN	1.030000	141.882675	20.768844	-	0.700000	606	NaN	NaN	0.184198	Sustainer
+Clustered_motors	1	3	0	0	NaN	1.030000	140.959964	11.715194	-	1.641574	432	NaN	NaN	0.184201	Sustainer
+Clustered_motors	1	4	0	0	NaN	1.030000	139.728760	11.334584	-	0.000000	426	NaN	NaN	0.184203	Sustainer
+Clustered_motors	1	5	0	0	NaN	1.030000	138.246251	11.172050	-	0.000000	397	NaN	NaN	0.184204	Sustainer
+Clustered_motors	1	6	0	0	NaN	1.030000	136.567746	11.081202	-	0.000000	376	NaN	NaN	0.184204	Sustainer
+Clustered_motors	1	7	0	0	NaN	1.030000	134.755610	10.984439	-	0.000000	382	NaN	NaN	0.184203	Sustainer
+Clustered_motors	1	8	0	0	NaN	1.030000	132.936509	10.919328	-	0.000000	389	NaN	NaN	0.184203	Sustainer
+Clustered_motors	1	9	0	0	NaN	1.030000	131.331575	10.830000	-	0.000000	402	NaN	NaN	0.184202	Sustainer
+Clustered_motors	1	10	0	0	NaN	1.030000	130.037666	10.809943	-	0.000000	412	NaN	NaN	0.184201	Sustainer
+Clustered_motors	2	0	0	0	NaN	1.860000	307.358086	41.091188	-	0.000000	1092	NaN	NaN	0.203836	Sustainer
+Clustered_motors	2	1	0	0	NaN	1.860000	306.959680	41.276636	-	0.300000	887	NaN	NaN	0.203838	Sustainer
+Clustered_motors	2	2	0	0	NaN	1.860000	305.844844	40.863113	-	1.566005	1108	NaN	NaN	0.203841	Sustainer
+Clustered_motors	2	3	0	0	NaN	1.860000	304.106873	17.155000	-	0.772574	544	NaN	NaN	0.203843	Sustainer
+Clustered_motors	2	4	0	0	NaN	1.860000	301.839327	16.912938	-	0.000000	507	NaN	NaN	0.203844	Sustainer
+Clustered_motors	2	5	0	0	NaN	1.860000	299.174577	16.806135	-	0.000000	485	NaN	NaN	0.203845	Sustainer
+Clustered_motors	2	6	0	0	NaN	1.860000	296.245233	16.699728	-	0.000000	471	NaN	NaN	0.203845	Sustainer
+Clustered_motors	2	7	0	0	NaN	1.860000	293.166402	16.599883	-	0.000000	478	NaN	NaN	0.203844	Sustainer
+Clustered_motors	2	8	0	0	NaN	1.860000	290.279707	16.499883	-	0.000000	489	NaN	NaN	0.203843	Sustainer
+Clustered_motors	2	9	0	0	NaN	1.860000	287.944619	16.449883	-	0.000000	498	NaN	NaN	0.203842	Sustainer
+Clustered_motors	2	10	0	0	NaN	1.860000	286.414097	16.399883	-	0.000000	508	NaN	NaN	0.203840	Sustainer
+Clustered_motors	3	0	0	0	NaN	1.860000	307.358087	41.064467	-	0.000000	1092	NaN	NaN	0.203836	Sustainer
+Clustered_motors	3	1	0	0	NaN	1.860000	306.959690	41.276690	-	0.300000	887	NaN	NaN	0.203838	Sustainer
+Clustered_motors	3	2	0	0	NaN	1.860000	305.844852	40.861368	-	1.566020	1108	NaN	NaN	0.203841	Sustainer
+Clustered_motors	3	3	0	0	NaN	1.860000	304.106869	17.154822	-	0.772562	544	NaN	NaN	0.203843	Sustainer
+Clustered_motors	3	4	0	0	NaN	1.860000	301.839306	16.912666	-	0.000000	507	NaN	NaN	0.203844	Sustainer
+Clustered_motors	3	5	0	0	NaN	1.860000	299.174586	16.806208	-	0.000000	485	NaN	NaN	0.203845	Sustainer
+Clustered_motors	3	6	0	0	NaN	1.860000	296.245221	16.699745	-	0.000000	471	NaN	NaN	0.203845	Sustainer
+Clustered_motors	3	7	0	0	NaN	1.860000	293.166437	16.599883	-	0.000000	478	NaN	NaN	0.203844	Sustainer
+Clustered_motors	3	8	0	0	NaN	1.860000	290.279710	16.499883	-	0.000000	489	NaN	NaN	0.203843	Sustainer
+Clustered_motors	3	9	0	0	NaN	1.860000	287.944648	16.449883	-	0.000000	498	NaN	NaN	0.203842	Sustainer
+Clustered_motors	3	10	0	0	NaN	1.860000	286.414057	16.399883	-	0.000000	508	NaN	NaN	0.203840	Sustainer
+Clustered_motors	4	0	0	0	NaN	1.860000	307.358547	41.049333	-	0.000000	1045	NaN	NaN	0.203836	Sustainer
+Clustered_motors	4	1	0	0	NaN	1.860000	306.960142	41.316180	-	0.300000	887	NaN	NaN	0.203838	Sustainer
+Clustered_motors	4	2	0	0	NaN	1.860000	305.845339	40.876128	-	1.584393	1113	NaN	NaN	0.203841	Sustainer
+Clustered_motors	4	3	0	0	NaN	1.860000	304.107143	17.134503	-	0.771769	541	NaN	NaN	0.203843	Sustainer
+Clustered_motors	4	4	0	0	NaN	1.860000	301.839096	16.948386	-	0.000000	505	NaN	NaN	0.203844	Sustainer
+Clustered_motors	4	5	0	0	NaN	1.860000	299.174474	16.793918	-	0.000000	482	NaN	NaN	0.203845	Sustainer
+Clustered_motors	4	6	0	0	NaN	1.860000	296.245121	16.703566	-	0.000000	468	NaN	NaN	0.203845	Sustainer
+Clustered_motors	4	7	0	0	NaN	1.860000	293.166438	16.599883	-	0.000000	478	NaN	NaN	0.203844	Sustainer
+Clustered_motors	4	8	0	0	NaN	1.860000	290.279925	16.499883	-	0.000000	489	NaN	NaN	0.203843	Sustainer
+Clustered_motors	4	9	0	0	NaN	1.860000	287.944615	16.449883	-	0.000000	498	NaN	NaN	0.203842	Sustainer
+Clustered_motors	4	10	0	0	NaN	1.860000	286.414159	16.399883	-	0.000000	508	NaN	NaN	0.203840	Sustainer
+Deployable_payload	0	0	0	0	NaN	0.730000	32.186935	5.494627	-	0.000000	619	NaN	NaN	0.268923	Deployable Payload
+Deployable_payload	0	0	0	1	NaN	0.730000	32.186935	6.216630	-	0.386596	689	NaN	NaN	NaN	Booster
+Deployable_payload	0	1	0	0	NaN	0.730000	32.070349	5.639085	-	0.250000	830	NaN	NaN	0.268924	Deployable Payload
+Deployable_payload	0	1	0	1	NaN	0.730000	32.070349	6.225281	-	0.734849	717	NaN	NaN	NaN	Booster
+Deployable_payload	0	2	0	0	NaN	0.730000	31.742155	5.888319	-	1.597385	1016	NaN	NaN	0.268926	Deployable Payload
+Deployable_payload	0	2	0	1	NaN	0.730000	31.742155	5.695579	-	1.408963	583	NaN	NaN	NaN	Booster
+Deployable_payload	0	3	0	0	NaN	0.730000	31.217907	5.832882	-	1.120993	1047	NaN	NaN	0.268927	Deployable Payload
+Deployable_payload	0	3	0	1	NaN	0.730000	31.217907	5.593012	-	0.935873	594	NaN	NaN	NaN	Booster
+Deployable_payload	0	4	0	0	NaN	0.730000	30.520343	5.728538	-	0.692500	1049	NaN	NaN	0.268928	Deployable Payload
+Deployable_payload	0	4	0	1	NaN	0.730000	30.520343	5.456449	-	0.000000	545	NaN	NaN	NaN	Booster
+Deployable_payload	0	5	0	0	NaN	0.730000	29.683244	5.619418	-	0.750000	1015	NaN	NaN	0.268928	Deployable Payload
+Deployable_payload	0	5	0	1	NaN	0.730000	29.683244	5.343633	-	0.000000	437	NaN	NaN	NaN	Booster
+Deployable_payload	0	6	0	0	NaN	0.730000	28.829797	5.500571	-	0.765000	1008	NaN	NaN	0.268927	Deployable Payload
+Deployable_payload	0	6	0	1	NaN	0.730000	28.829797	5.263859	-	0.000000	454	NaN	NaN	NaN	Booster
+Deployable_payload	0	7	0	0	NaN	0.730000	28.030881	5.339585	-	0.745000	952	NaN	NaN	0.268926	Deployable Payload
+Deployable_payload	0	7	0	1	NaN	0.730000	28.030881	5.192713	-	0.000000	445	NaN	NaN	NaN	Booster
+Deployable_payload	0	8	0	0	NaN	0.730000	27.295875	5.259186	-	0.687500	987	NaN	NaN	0.268925	Deployable Payload
+Deployable_payload	0	8	0	1	NaN	0.730000	27.295875	5.106324	-	0.000000	501	NaN	NaN	NaN	Booster
+Deployable_payload	0	9	0	0	NaN	0.730000	26.624213	5.118878	-	0.415000	912	NaN	NaN	0.268924	Deployable Payload
+Deployable_payload	0	9	0	1	NaN	0.730000	26.624213	5.054969	-	0.000000	543	NaN	NaN	NaN	Booster
+Deployable_payload	0	10	0	0	NaN	0.730000	26.012687	5.098503	-	0.395000	929	NaN	NaN	0.268922	Deployable Payload
+Deployable_payload	0	10	0	1	NaN	0.730000	26.012687	5.009704	-	0.000000	542	NaN	NaN	NaN	Booster
+Deployable_payload	1	0	0	0	NaN	1.030000	96.568503	9.350645	-	0.000000	235	NaN	NaN	0.203634	Deployable Payload
+Deployable_payload	1	0	0	1	NaN	1.030000	96.568503	14.277264	-	1.110652	1820	NaN	NaN	NaN	Booster
+Deployable_payload	1	1	0	0	NaN	1.030000	96.261700	9.542620	-	0.450000	1672	NaN	NaN	0.203633	Deployable Payload
+Deployable_payload	1	1	0	1	NaN	1.030000	96.261700	14.386927	-	1.704380	1668	NaN	NaN	NaN	Booster
+Deployable_payload	1	2	0	0	NaN	1.030000	95.365291	10.170685	-	0.882747	2072	NaN	NaN	0.203631	Deployable Payload
+Deployable_payload	1	2	0	1	NaN	1.030000	95.365291	10.030359	-	0.528090	761	NaN	NaN	NaN	Booster
+Deployable_payload	1	3	0	0	NaN	1.030000	93.897760	10.279190	-	0.540417	2193	NaN	NaN	0.203629	Deployable Payload
+Deployable_payload	1	3	0	1	NaN	1.030000	93.897760	9.868711	-	0.000000	483	NaN	NaN	NaN	Booster
+Deployable_payload	1	4	0	0	NaN	1.030000	91.941443	10.391516	-	0.705471	2318	NaN	NaN	0.203628	Deployable Payload
+Deployable_payload	1	4	0	1	NaN	1.030000	91.941443	9.754910	-	0.000000	452	NaN	NaN	NaN	Booster
+Deployable_payload	1	5	0	0	NaN	1.030000	89.589072	10.596806	-	1.055000	2461	NaN	NaN	0.203628	Deployable Payload
+Deployable_payload	1	5	0	1	NaN	1.030000	89.589072	9.612558	-	0.000000	492	NaN	NaN	NaN	Booster
+Deployable_payload	1	6	0	0	NaN	1.030000	86.947911	10.506686	-	2.080000	2354	NaN	NaN	0.203629	Deployable Payload
+Deployable_payload	1	6	0	1	NaN	1.030000	86.947911	9.480000	-	0.000000	538	NaN	NaN	NaN	Booster
+Deployable_payload	1	7	0	0	NaN	1.030000	84.325950	10.360504	-	2.170000	2408	NaN	NaN	0.203629	Deployable Payload
+Deployable_payload	1	7	0	1	NaN	1.030000	84.325950	9.330000	-	0.000000	574	NaN	NaN	NaN	Booster
+Deployable_payload	1	8	0	0	NaN	1.030000	81.828450	10.177299	-	2.047500	2387	NaN	NaN	0.203630	Deployable Payload
+Deployable_payload	1	8	0	1	NaN	1.030000	81.828450	9.192664	-	0.000000	601	NaN	NaN	NaN	Booster
+Deployable_payload	1	9	0	0	NaN	1.030000	79.488239	10.128159	-	2.017500	2340	NaN	NaN	0.203631	Deployable Payload
+Deployable_payload	1	9	0	1	NaN	1.030000	79.488239	9.080000	-	0.000000	625	NaN	NaN	NaN	Booster
+Deployable_payload	1	10	0	0	NaN	1.030000	77.313322	9.985011	-	1.960000	2322	NaN	NaN	0.203633	Deployable Payload
+Deployable_payload	1	10	0	1	NaN	1.030000	77.313322	8.930000	-	0.000000	644	NaN	NaN	NaN	Booster
+Deployable_payload	2	0	0	0	NaN	1.860000	259.653100	17.740137	-	2.449194	4708	NaN	NaN	0.222931	Deployable Payload
+Deployable_payload	2	0	0	1	NaN	1.860000	258.501156	34.055620	-	0.914495	2109	NaN	NaN	NaN	Booster
+Deployable_payload	2	1	0	0	NaN	1.860000	256.121265	17.659182	-	2.516845	4876	NaN	NaN	0.222933	Deployable Payload
+Deployable_payload	2	1	0	1	NaN	1.860000	257.674798	18.141009	-	1.532711	1067	NaN	NaN	NaN	Booster
+Deployable_payload	2	2	0	0	NaN	1.860000	253.165101	17.566797	-	2.541788	4924	NaN	NaN	0.222936	Deployable Payload
+Deployable_payload	2	2	0	1	NaN	1.860000	255.260445	17.781436	-	0.000000	760	NaN	NaN	NaN	Booster
+Deployable_payload	2	3	0	0	NaN	1.860000	249.234752	18.169162	-	3.133493	5288	NaN	NaN	0.222937	Deployable Payload
+Deployable_payload	2	3	0	1	NaN	1.860000	251.422875	17.586181	-	0.000000	564	NaN	NaN	NaN	Booster
+Deployable_payload	2	4	0	0	NaN	1.860000	244.231025	18.325462	-	3.491494	5400	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	2	4	0	1	NaN	1.860000	246.398019	17.405278	-	0.000000	599	NaN	NaN	NaN	Booster
+Deployable_payload	2	5	0	0	NaN	1.860000	238.377952	17.677078	-	3.045046	5221	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	2	5	0	1	NaN	1.860000	240.399498	17.110000	-	0.000000	649	NaN	NaN	NaN	Booster
+Deployable_payload	2	6	0	0	NaN	1.860000	231.918073	17.687431	-	3.222961	5312	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	2	6	0	1	NaN	1.860000	233.667976	16.810000	-	0.000000	699	NaN	NaN	NaN	Booster
+Deployable_payload	2	7	0	0	NaN	1.860000	225.505612	20.078110	-	6.417080	6126	NaN	NaN	0.222937	Deployable Payload
+Deployable_payload	2	7	0	1	NaN	1.860000	226.922685	16.510000	-	0.000000	729	NaN	NaN	NaN	Booster
+Deployable_payload	2	8	0	0	NaN	1.860000	219.399129	19.710276	-	6.380767	6106	NaN	NaN	0.222936	Deployable Payload
+Deployable_payload	2	8	0	1	NaN	1.860000	220.533049	16.260000	-	0.000000	759	NaN	NaN	NaN	Booster
+Deployable_payload	2	9	0	0	NaN	1.860000	213.698464	19.340950	-	6.090750	5970	NaN	NaN	0.222935	Deployable Payload
+Deployable_payload	2	9	0	1	NaN	1.860000	214.571746	16.010000	-	0.000000	776	NaN	NaN	NaN	Booster
+Deployable_payload	2	10	0	0	NaN	1.860000	208.408283	19.006311	-	5.930230	5790	NaN	NaN	0.222932	Deployable Payload
+Deployable_payload	2	10	0	1	NaN	1.860000	209.084106	15.760000	-	0.000000	791	NaN	NaN	NaN	Booster
+Deployable_payload	3	0	0	0	NaN	1.860000	266.020389	15.699883	-	0.000000	369	NaN	NaN	0.222931	Deployable Payload
+Deployable_payload	3	0	0	1	NaN	1.860000	265.977990	35.197634	-	0.938595	2027	NaN	NaN	NaN	Booster
+Deployable_payload	3	1	0	0	NaN	1.860000	265.155062	15.921014	-	0.338222	2974	NaN	NaN	0.222933	Deployable Payload
+Deployable_payload	3	1	0	1	NaN	1.860000	265.121890	18.687702	-	0.973919	929	NaN	NaN	NaN	Booster
+Deployable_payload	3	2	0	0	NaN	1.860000	262.629640	16.506406	-	0.728765	3582	NaN	NaN	0.222936	Deployable Payload
+Deployable_payload	3	2	0	1	NaN	1.860000	262.566879	18.411237	-	0.000000	580	NaN	NaN	NaN	Booster
+Deployable_payload	3	3	0	0	NaN	1.860000	258.568555	16.928472	-	1.154496	3943	NaN	NaN	0.222937	Deployable Payload
+Deployable_payload	3	3	0	1	NaN	1.860000	258.485227	18.231283	-	0.000000	564	NaN	NaN	NaN	Booster
+Deployable_payload	3	4	0	0	NaN	1.860000	253.170350	17.223500	-	1.292500	4117	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	3	4	0	1	NaN	1.860000	253.116159	18.010000	-	0.000000	611	NaN	NaN	NaN	Booster
+Deployable_payload	3	5	0	0	NaN	1.860000	246.710153	17.868777	-	1.947500	4468	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	3	5	0	1	NaN	1.860000	246.682160	17.710000	-	0.000000	661	NaN	NaN	NaN	Booster
+Deployable_payload	3	6	0	0	NaN	1.860000	239.451767	21.709353	-	6.360000	5946	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	3	6	0	1	NaN	1.860000	239.439636	17.410000	-	0.000000	711	NaN	NaN	NaN	Booster
+Deployable_payload	3	7	0	0	NaN	1.860000	232.171730	21.262160	-	5.987500	5742	NaN	NaN	0.222937	Deployable Payload
+Deployable_payload	3	7	0	1	NaN	1.860000	232.169665	17.110000	-	0.000000	741	NaN	NaN	NaN	Booster
+Deployable_payload	3	8	0	0	NaN	1.860000	225.276540	20.858766	-	5.875000	5637	NaN	NaN	0.222936	Deployable Payload
+Deployable_payload	3	8	0	1	NaN	1.860000	225.276441	16.810000	-	0.000000	770	NaN	NaN	NaN	Booster
+Deployable_payload	3	9	0	0	NaN	1.860000	218.854275	20.476698	-	5.712500	5516	NaN	NaN	0.222935	Deployable Payload
+Deployable_payload	3	9	0	1	NaN	1.860000	218.854275	16.510000	-	0.000000	786	NaN	NaN	NaN	Booster
+Deployable_payload	3	10	0	0	NaN	1.860000	212.951437	20.108703	-	5.555000	5382	NaN	NaN	0.222932	Deployable Payload
+Deployable_payload	3	10	0	1	NaN	1.860000	212.951437	16.260000	-	0.000000	801	NaN	NaN	NaN	Booster
+Deployable_payload	4	0	0	0	NaN	1.860000	266.018557	17.484605	-	0.653239	3418	NaN	NaN	0.222931	Deployable Payload
+Deployable_payload	4	0	0	1	NaN	1.860000	266.018557	34.940868	-	1.257963	2157	NaN	NaN	NaN	Booster
+Deployable_payload	4	1	0	0	NaN	1.860000	265.164430	17.562563	-	1.838702	3548	NaN	NaN	0.222933	Deployable Payload
+Deployable_payload	4	1	0	1	NaN	1.860000	265.164430	18.702455	-	1.467269	1080	NaN	NaN	NaN	Booster
+Deployable_payload	4	2	0	0	NaN	1.860000	262.623604	22.871370	-	5.967500	5541	NaN	NaN	0.222936	Deployable Payload
+Deployable_payload	4	2	0	1	NaN	1.860000	262.623604	18.372616	-	0.000000	715	NaN	NaN	NaN	Booster
+Deployable_payload	4	3	0	0	NaN	1.860000	258.538458	22.618027	-	5.877500	5428	NaN	NaN	0.222937	Deployable Payload
+Deployable_payload	4	3	0	1	NaN	1.860000	258.538458	18.157836	-	0.000000	569	NaN	NaN	NaN	Booster
+Deployable_payload	4	4	0	0	NaN	1.860000	253.155073	22.279235	-	5.732500	5332	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	4	4	0	1	NaN	1.860000	253.155073	17.960000	-	0.000000	610	NaN	NaN	NaN	Booster
+Deployable_payload	4	5	0	0	NaN	1.860000	246.707403	21.898300	-	5.607500	5279	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	4	5	0	1	NaN	1.860000	246.707403	17.660000	-	0.000000	660	NaN	NaN	NaN	Booster
+Deployable_payload	4	6	0	0	NaN	1.860000	239.451384	21.412011	-	5.405000	5186	NaN	NaN	0.222938	Deployable Payload
+Deployable_payload	4	6	0	1	NaN	1.860000	239.451384	17.310000	-	0.000000	709	NaN	NaN	NaN	Booster
+Deployable_payload	4	7	0	0	NaN	1.860000	232.171630	20.906307	-	5.132500	5034	NaN	NaN	0.222937	Deployable Payload
+Deployable_payload	4	7	0	1	NaN	1.860000	232.171630	17.010000	-	0.000000	739	NaN	NaN	NaN	Booster
+Deployable_payload	4	8	0	0	NaN	1.860000	225.276988	20.470599	-	5.085000	4952	NaN	NaN	0.222936	Deployable Payload
+Deployable_payload	4	8	0	1	NaN	1.860000	225.276988	16.660000	-	0.000000	767	NaN	NaN	NaN	Booster
+Deployable_payload	4	9	0	0	NaN	1.860000	218.854275	19.963658	-	4.747500	4758	NaN	NaN	0.222935	Deployable Payload
+Deployable_payload	4	9	0	1	NaN	1.860000	218.854275	16.360000	-	0.000000	783	NaN	NaN	NaN	Booster
+Deployable_payload	4	10	0	0	NaN	1.860000	212.951437	19.607015	-	4.735000	4717	NaN	NaN	0.222932	Deployable Payload
+Deployable_payload	4	10	0	1	NaN	1.860000	212.951437	16.060000	-	0.000000	797	NaN	NaN	NaN	Booster
+Dual_parachute_deployment	0	0	0	0	NaN	0.329000	592.394825	50.386339	-	0.050000	1140	NaN	NaN	0.119423	Sustainer
+Dual_parachute_deployment	0	1	0	0	NaN	0.329000	592.314814	50.404590	-	0.200000	1095	NaN	NaN	0.119423	Sustainer
+Dual_parachute_deployment	0	2	0	0	NaN	0.329000	592.078630	50.342536	-	0.350000	1085	NaN	NaN	0.119424	Sustainer
+Dual_parachute_deployment	0	3	0	0	NaN	0.329000	591.695965	50.141980	-	0.500000	1135	NaN	NaN	0.119425	Sustainer
+Dual_parachute_deployment	0	4	0	0	NaN	0.329000	591.177584	49.903056	-	0.700000	1226	NaN	NaN	0.119426	Sustainer
+Dual_parachute_deployment	0	5	0	0	NaN	0.329000	590.528809	49.631930	-	1.700000	1359	NaN	NaN	0.119427	Sustainer
+Dual_parachute_deployment	0	6	0	0	NaN	0.329000	589.756360	49.739325	-	2.263730	1459	NaN	NaN	0.119428	Sustainer
+Dual_parachute_deployment	0	7	0	0	NaN	0.329000	588.860398	48.325852	-	3.544483	1680	NaN	NaN	0.119429	Sustainer
+Dual_parachute_deployment	0	8	0	0	NaN	0.329000	587.853437	22.532862	-	1.800000	730	NaN	NaN	0.119430	Sustainer
+Dual_parachute_deployment	0	9	0	0	NaN	0.329000	586.733788	22.303151	-	1.081006	740	NaN	NaN	0.119431	Sustainer
+Dual_parachute_deployment	0	10	0	0	NaN	0.329000	585.512762	22.226961	-	0.000000	732	NaN	NaN	0.119432	Sustainer
+Dual_parachute_deployment	1	0	0	0	NaN	1.599000	662.057981	56.280137	-	0.000000	1265	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	1	0	0	NaN	1.599000	661.690517	56.171550	-	0.400000	1199	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	2	0	0	NaN	1.599000	660.648389	55.695380	-	0.800000	1341	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	3	0	0	NaN	1.599000	658.974315	54.558336	-	2.588149	1589	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	4	0	0	NaN	1.599000	656.700049	24.161218	-	1.303344	682	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	5	0	0	NaN	1.599000	653.871800	23.915295	-	0.000000	642	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	6	0	0	NaN	1.599000	650.549156	23.838383	-	0.000000	616	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	7	0	0	NaN	1.599000	646.794144	23.715266	-	0.000000	614	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	8	0	0	NaN	1.599000	642.672726	23.618922	-	0.000000	632	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	9	0	0	NaN	1.599000	638.236843	23.568063	-	0.000000	649	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	1	10	0	0	NaN	1.599000	633.548499	23.478695	-	0.000000	654	NaN	NaN	0.259250	Sustainer
+Dual_parachute_deployment	2	0	0	0	NaN	2.052000	2171.633725	155.468537	-	0.050000	3215	NaN	NaN	0.131220	Sustainer
+Dual_parachute_deployment	2	1	0	0	NaN	2.052000	2171.388532	155.381852	-	0.250000	3157	NaN	NaN	0.131220	Sustainer
+Dual_parachute_deployment	2	2	0	0	NaN	2.052000	2170.660425	155.176937	-	0.450000	3212	NaN	NaN	0.131221	Sustainer
+Dual_parachute_deployment	2	3	0	0	NaN	2.052000	2169.478754	154.869579	-	0.700000	3347	NaN	NaN	0.131221	Sustainer
+Dual_parachute_deployment	2	4	0	0	NaN	2.052000	2167.865292	155.015113	-	1.500000	3482	NaN	NaN	0.131221	Sustainer
+Dual_parachute_deployment	2	5	0	0	NaN	2.052000	2165.837250	153.628877	-	2.106535	3606	NaN	NaN	0.131222	Sustainer
+Dual_parachute_deployment	2	6	0	0	NaN	2.052000	2163.418148	153.621051	-	2.524733	3820	NaN	NaN	0.131223	Sustainer
+Dual_parachute_deployment	2	7	0	0	NaN	2.052000	2160.625687	43.632404	-	1.344531	1131	NaN	NaN	0.131223	Sustainer
+Dual_parachute_deployment	2	8	0	0	NaN	2.052000	2157.494340	43.504287	-	0.000000	1125	NaN	NaN	0.131224	Sustainer
+Dual_parachute_deployment	2	9	0	0	NaN	2.052000	2154.053256	43.378005	-	0.000000	1102	NaN	NaN	0.131224	Sustainer
+Dual_parachute_deployment	2	10	0	0	NaN	2.052000	2150.333076	43.282541	-	0.000000	1087	NaN	NaN	0.131224	Sustainer
+Dual_parachute_deployment	3	0	0	0	NaN	0.329000	896.317593	72.636307	-	0.000000	1575	NaN	NaN	0.104927	Sustainer
+Dual_parachute_deployment	3	1	0	0	NaN	0.329000	896.234091	72.637478	-	0.150000	1531	NaN	NaN	0.104927	Sustainer
+Dual_parachute_deployment	3	2	0	0	NaN	0.329000	895.985620	72.573044	-	0.350000	1531	NaN	NaN	0.104927	Sustainer
+Dual_parachute_deployment	3	3	0	0	NaN	0.329000	895.579697	72.390125	-	0.450000	1579	NaN	NaN	0.104927	Sustainer
+Dual_parachute_deployment	3	4	0	0	NaN	0.329000	895.025113	72.205463	-	0.650000	1669	NaN	NaN	0.104927	Sustainer
+Dual_parachute_deployment	3	5	0	0	NaN	0.329000	894.324831	71.870735	-	1.100000	1797	NaN	NaN	0.104927	Sustainer
+Dual_parachute_deployment	3	6	0	0	NaN	0.329000	893.483616	72.098783	-	2.043730	1868	NaN	NaN	0.104928	Sustainer
+Dual_parachute_deployment	3	7	0	0	NaN	0.329000	892.507154	70.925930	-	2.471608	1990	NaN	NaN	0.104928	Sustainer
+Dual_parachute_deployment	3	8	0	0	NaN	0.329000	891.394157	70.744825	-	3.088876	2139	NaN	NaN	0.104928	Sustainer
+Dual_parachute_deployment	3	9	0	0	NaN	0.329000	890.155118	27.483912	-	1.409250	856	NaN	NaN	0.104928	Sustainer
+Dual_parachute_deployment	3	10	0	0	NaN	0.329000	888.796680	27.406017	-	0.494827	860	NaN	NaN	0.104929	Sustainer
+Dual_parachute_deployment	4	0	0	0	NaN	0.340000	1156.755692	90.528737	-	0.000000	1925	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	1	0	0	NaN	0.340000	1156.678943	90.511072	-	0.200000	1885	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	2	0	0	NaN	0.340000	1156.447550	90.415395	-	0.300000	1873	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	3	0	0	NaN	0.340000	1156.067758	90.277485	-	0.450000	1916	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	4	0	0	NaN	0.340000	1155.544655	90.103661	-	0.550000	1992	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	5	0	0	NaN	0.340000	1154.888992	89.864060	-	0.800000	2095	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	6	0	0	NaN	0.340000	1154.099343	90.025493	-	1.600000	2167	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	7	0	0	NaN	0.340000	1153.179708	90.010544	-	2.077430	2287	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	8	0	0	NaN	0.340000	1152.136924	88.813776	-	2.322038	2373	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	9	0	0	NaN	0.340000	1150.974847	88.709873	-	2.727198	2482	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	4	10	0	0	NaN	0.340000	1149.695144	31.293641	-	1.375282	918	NaN	NaN	0.100000	Sustainer
+Dual_parachute_deployment	5	0	0	0	NaN	2.440000	227.306148	22.343809	-	0.000000	597	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	1	0	0	NaN	2.440000	227.010920	22.384238	-	0.350000	518	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	2	0	0	NaN	2.440000	226.182191	21.606663	-	2.054964	729	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	3	0	0	NaN	2.440000	224.858455	14.677573	-	1.998293	490	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	4	0	0	NaN	2.440000	223.066698	14.372746	-	0.219213	458	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	5	0	0	NaN	2.440000	220.859980	14.221205	-	0.000000	405	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	6	0	0	NaN	2.440000	218.296643	14.137420	-	0.000000	384	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	7	0	0	NaN	2.440000	215.435149	14.034864	-	0.000000	387	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	8	0	0	NaN	2.440000	212.496799	13.900683	-	0.000000	399	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	9	0	0	NaN	2.440000	209.721823	13.841107	-	0.000000	411	NaN	NaN	0.350000	Sustainer
+Dual_parachute_deployment	5	10	0	0	NaN	2.440000	207.185807	13.736067	-	0.014927	422	NaN	NaN	0.350000	Sustainer
+Parallel_booster_staging	0	0	0	0	NaN	2.440000	1121.618827	96.788118	-	0.050000	2070	NaN	NaN	0.238561	Sustainer
+Parallel_booster_staging	0	0	0	1	NaN	2.440000	344.164485	29.483968	-	11.817500	10682	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	1	0	0	NaN	2.440000	1120.668097	96.566286	-	0.450000	2034	NaN	NaN	0.238565	Sustainer
+Parallel_booster_staging	0	1	0	1	NaN	2.440000	343.945737	29.480050	-	11.845000	10687	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	2	0	0	NaN	2.440000	1117.967909	95.961888	-	1.223625	2173	NaN	NaN	0.238569	Sustainer
+Parallel_booster_staging	0	2	0	1	NaN	2.440000	343.536085	29.466848	-	11.935000	10696	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	3	0	0	NaN	2.440000	1113.720284	94.984669	-	2.599849	2345	NaN	NaN	0.238572	Sustainer
+Parallel_booster_staging	0	3	0	1	NaN	2.440000	343.686393	29.477502	-	11.925000	10693	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	4	0	0	NaN	2.440000	1108.107407	32.735639	-	0.140990	824	NaN	NaN	0.238573	Sustainer
+Parallel_booster_staging	0	4	0	1	NaN	2.440000	342.028796	29.381037	-	11.947500	10685	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	5	0	0	NaN	2.440000	1101.334459	32.511566	-	0.000000	796	NaN	NaN	0.238572	Sustainer
+Parallel_booster_staging	0	5	0	1	NaN	2.440000	339.824339	29.235930	-	11.902500	10648	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	6	0	0	NaN	2.440000	1093.712909	32.322125	-	0.000000	791	NaN	NaN	0.238571	Sustainer
+Parallel_booster_staging	0	6	0	1	NaN	2.440000	339.081226	29.185197	-	11.945000	10638	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	7	0	0	NaN	2.440000	1085.937047	32.222125	-	0.000000	809	NaN	NaN	0.238570	Sustainer
+Parallel_booster_staging	0	7	0	1	NaN	2.440000	337.415154	29.050135	-	11.792500	10605	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	8	0	0	NaN	2.440000	1078.429841	32.072125	-	0.000000	811	NaN	NaN	0.238568	Sustainer
+Parallel_booster_staging	0	8	0	1	NaN	2.440000	336.776099	29.016923	-	11.865000	10594	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	9	0	0	NaN	2.440000	1071.537878	31.922125	-	0.000000	823	NaN	NaN	0.238566	Sustainer
+Parallel_booster_staging	0	9	0	1	NaN	2.440000	334.373043	28.803985	-	11.605000	10514	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	0	10	0	0	NaN	2.440000	1065.533906	31.822125	-	0.000000	831	NaN	NaN	0.238563	Sustainer
+Parallel_booster_staging	0	10	0	1	NaN	2.440000	334.027629	28.812915	-	11.695000	10539	NaN	NaN	NaN	Booster Set
+Parallel_booster_staging	1	0	0	0	NaN	3.514000	850.654330	31.267124	-	2.340438	916	NaN	NaN	0.262247	Sustainer
+Parallel_booster_staging	1	1	0	0	NaN	3.514000	849.711768	30.213959	-	1.802654	878	NaN	NaN	0.262251	Sustainer
+Parallel_booster_staging	1	2	0	0	NaN	3.514000	847.023059	29.640641	-	2.437373	835	NaN	NaN	0.262256	Sustainer
+Parallel_booster_staging	1	3	0	0	NaN	3.514000	842.776118	29.268897	-	1.213064	778	NaN	NaN	0.262258	Sustainer
+Parallel_booster_staging	1	4	0	0	NaN	3.514000	837.130355	28.996759	-	0.000000	729	NaN	NaN	0.262259	Sustainer
+Parallel_booster_staging	1	5	0	0	NaN	3.514000	830.299632	28.763816	-	0.000000	684	NaN	NaN	0.262258	Sustainer
+Parallel_booster_staging	1	6	0	0	NaN	3.514000	822.977510	28.614000	-	0.000000	698	NaN	NaN	0.262257	Sustainer
+Parallel_booster_staging	1	7	0	0	NaN	3.514000	815.712897	28.464000	-	0.000000	709	NaN	NaN	0.262255	Sustainer
+Parallel_booster_staging	1	8	0	0	NaN	3.514000	808.872892	28.322125	-	0.000000	724	NaN	NaN	0.262253	Sustainer
+Parallel_booster_staging	1	9	0	0	NaN	3.514000	802.707553	28.172125	-	0.000000	742	NaN	NaN	0.262251	Sustainer
+Parallel_booster_staging	1	10	0	0	NaN	3.514000	797.413762	28.074608	-	0.000000	755	NaN	NaN	0.262248	Sustainer
+Pods--airframes_and_winglets	0	0	0	0	NaN	0.534000	30.308607	6.126766	-	1.286103	1100	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	1	0	0	NaN	0.534000	30.207254	5.685946	-	1.099036	859	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	2	0	0	NaN	0.534000	29.927934	5.444400	-	1.010101	678	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	3	0	0	NaN	0.534000	29.482839	5.295603	-	0.000000	556	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	4	0	0	NaN	0.534000	28.885460	5.196613	-	0.000000	460	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	5	0	0	NaN	0.534000	28.166169	5.141397	-	0.000000	423	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	6	0	0	NaN	0.534000	27.364977	5.075369	-	0.000000	424	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	7	0	0	NaN	0.534000	26.571394	4.998589	-	0.000000	441	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	8	0	0	NaN	0.534000	25.815749	4.934000	-	0.000000	452	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	9	0	0	NaN	0.534000	25.104069	4.828531	-	0.000000	467	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	0	10	0	0	NaN	0.534000	24.440098	4.794074	-	0.000000	476	NaN	NaN	0.318000	Sustainer
+Pods--airframes_and_winglets	1	0	0	0	NaN	0.860000	90.411261	10.206308	-	1.257381	1357	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	1	0	0	NaN	0.860000	90.194261	9.407278	-	1.082636	905	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	2	0	0	NaN	0.860000	89.566502	9.108068	-	0.582456	681	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	3	0	0	NaN	0.860000	88.529208	8.977249	-	0.000000	531	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	4	0	0	NaN	0.860000	87.126476	8.868199	-	0.000000	475	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	5	0	0	NaN	0.860000	85.430726	8.810068	-	0.000000	487	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	6	0	0	NaN	0.860000	83.499367	8.700000	-	0.000000	498	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	7	0	0	NaN	0.860000	81.411886	8.600142	-	0.000000	510	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	8	0	0	NaN	0.860000	79.323052	8.458692	-	0.000000	522	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	9	0	0	NaN	0.860000	77.283230	8.377676	-	0.000000	524	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	1	10	0	0	NaN	0.860000	75.323005	8.260000	-	0.000000	532	NaN	NaN	0.230000	Sustainer
+Pods--airframes_and_winglets	2	0	0	0	NaN	1.860000	199.306707	15.139431	-	1.253853	1489	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	1	0	0	NaN	1.860000	198.736459	14.159320	-	1.124670	909	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	2	0	0	NaN	1.860000	197.027854	13.894407	-	0.000000	628	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	3	0	0	NaN	1.860000	194.232029	13.720946	-	0.000000	544	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	4	0	0	NaN	1.860000	190.519370	13.599839	-	0.000000	576	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	5	0	0	NaN	1.860000	186.062771	13.420000	-	0.000000	600	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	6	0	0	NaN	1.860000	181.019451	13.220000	-	0.000000	609	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	7	0	0	NaN	1.860000	175.578441	12.999839	-	0.000000	626	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	8	0	0	NaN	1.860000	170.161096	12.799839	-	0.000000	637	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	9	0	0	NaN	1.860000	164.913732	12.599839	-	0.000000	644	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	2	10	0	0	NaN	1.860000	159.896364	12.359839	-	0.000000	646	NaN	NaN	0.231000	Sustainer
+Pods--airframes_and_winglets	3	0	0	0	NaN	0.889000	207.005318	14.882176	-	1.266167	1494	NaN	NaN	0.186193	Sustainer
+Pods--airframes_and_winglets	3	1	0	0	NaN	0.889000	206.667440	14.047369	-	1.132702	1037	NaN	NaN	0.186189	Sustainer
+Pods--airframes_and_winglets	3	2	0	0	NaN	0.889000	205.669279	13.697661	-	0.530559	789	NaN	NaN	0.186183	Sustainer
+Pods--airframes_and_winglets	3	3	0	0	NaN	0.889000	204.008631	13.543375	-	0.000000	626	NaN	NaN	0.186178	Sustainer
+Pods--airframes_and_winglets	3	4	0	0	NaN	0.889000	201.736088	13.444668	-	0.000000	567	NaN	NaN	0.186175	Sustainer
+Pods--airframes_and_winglets	3	5	0	0	NaN	0.889000	198.924495	13.321709	-	0.000000	576	NaN	NaN	0.186174	Sustainer
+Pods--airframes_and_winglets	3	6	0	0	NaN	0.889000	195.646469	13.209000	-	0.000000	576	NaN	NaN	0.186175	Sustainer
+Pods--airframes_and_winglets	3	7	0	0	NaN	0.889000	192.024338	13.089000	-	0.000000	585	NaN	NaN	0.186176	Sustainer
+Pods--airframes_and_winglets	3	8	0	0	NaN	0.889000	188.353836	12.955249	-	0.000000	590	NaN	NaN	0.186178	Sustainer
+Pods--airframes_and_winglets	3	9	0	0	NaN	0.889000	184.694161	12.782632	-	0.000000	589	NaN	NaN	0.186180	Sustainer
+Pods--airframes_and_winglets	3	10	0	0	NaN	0.889000	181.084330	12.649000	-	0.000000	592	NaN	NaN	0.186184	Sustainer
+Pods--airframes_and_winglets	4	0	0	0	NaN	0.838000	245.066708	16.075544	-	1.266228	1529	NaN	NaN	0.156055	Sustainer
+Pods--airframes_and_winglets	4	1	0	0	NaN	0.838000	244.765170	15.285232	-	1.065928	1147	NaN	NaN	0.156060	Sustainer
+Pods--airframes_and_winglets	4	2	0	0	NaN	0.838000	243.918054	14.958517	-	0.804513	875	NaN	NaN	0.156069	Sustainer
+Pods--airframes_and_winglets	4	3	0	0	NaN	0.838000	242.476655	14.778024	-	0.000000	737	NaN	NaN	0.156077	Sustainer
+Pods--airframes_and_winglets	4	4	0	0	NaN	0.838000	240.501865	14.690006	-	0.000000	599	NaN	NaN	0.156082	Sustainer
+Pods--airframes_and_winglets	4	5	0	0	NaN	0.838000	238.005210	14.598000	-	0.000000	644	NaN	NaN	0.156084	Sustainer
+Pods--airframes_and_winglets	4	6	0	0	NaN	0.838000	235.112033	14.462620	-	0.000000	626	NaN	NaN	0.156085	Sustainer
+Pods--airframes_and_winglets	4	7	0	0	NaN	0.838000	231.819677	14.358000	-	0.000000	599	NaN	NaN	0.156084	Sustainer
+Pods--airframes_and_winglets	4	8	0	0	NaN	0.838000	228.256715	14.215837	-	0.000000	602	NaN	NaN	0.156082	Sustainer
+Pods--airframes_and_winglets	4	9	0	0	NaN	0.838000	224.668462	14.098968	-	0.000000	609	NaN	NaN	0.156079	Sustainer
+Pods--airframes_and_winglets	4	10	0	0	NaN	0.838000	221.099687	13.988859	-	0.000000	610	NaN	NaN	0.156076	Sustainer
+Pods--powered_with_recovery_deployment	0	0	0	0	NaN	0.534000	91.411805	10.868401	-	1.899302	1706	NaN	NaN	0.207232	Sustainer
+Pods--powered_with_recovery_deployment	0	1	0	0	NaN	0.534000	91.270261	9.576513	-	1.190859	1245	NaN	NaN	0.207233	Sustainer
+Pods--powered_with_recovery_deployment	0	2	0	0	NaN	0.534000	90.871355	9.213207	-	1.020385	1079	NaN	NaN	0.207236	Sustainer
+Pods--powered_with_recovery_deployment	0	3	0	0	NaN	0.534000	90.239014	9.077369	-	0.100272	914	NaN	NaN	0.207238	Sustainer
+Pods--powered_with_recovery_deployment	0	4	0	0	NaN	0.534000	89.370041	8.994446	-	0.000000	676	NaN	NaN	0.207239	Sustainer
+Pods--powered_with_recovery_deployment	0	5	0	0	NaN	0.534000	88.335064	8.917993	-	0.000000	543	NaN	NaN	0.207240	Sustainer
+Pods--powered_with_recovery_deployment	0	6	0	0	NaN	0.534000	87.131699	8.882331	-	0.000000	514	NaN	NaN	0.207240	Sustainer
+Pods--powered_with_recovery_deployment	0	7	0	0	NaN	0.534000	85.824421	8.818235	-	0.000000	517	NaN	NaN	0.207240	Sustainer
+Pods--powered_with_recovery_deployment	0	8	0	0	NaN	0.534000	84.418137	8.738021	-	0.000000	527	NaN	NaN	0.207239	Sustainer
+Pods--powered_with_recovery_deployment	0	9	0	0	NaN	0.534000	83.002882	8.659737	-	0.000000	534	NaN	NaN	0.207238	Sustainer
+Pods--powered_with_recovery_deployment	0	10	0	0	NaN	0.534000	81.633201	8.575475	-	0.000000	544	NaN	NaN	0.207237	Sustainer
+Simulation_extensions	0	0	0	0	NaN	9.786000	2413.843584	149.888465	-	0.000000	3159	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	1	0	0	NaN	9.786000	2412.157221	148.778351	-	0.700000	3148	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	2	0	0	NaN	9.786000	2408.361816	145.459701	-	2.600000	3125	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	3	0	0	NaN	9.786000	2404.129269	150.500338	-	7.260170	3438	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	4	0	0	NaN	9.786000	2400.829552	49.112071	-	1.350000	1148	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	5	0	0	NaN	9.786000	2399.318564	49.061487	-	0.850000	1145	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	6	0	0	NaN	9.786000	2400.354062	49.128580	-	1.350000	1165	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	7	0	0	NaN	9.786000	2404.874899	144.062217	-	3.224840	3147	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	8	0	0	NaN	9.786000	2409.739607	148.513223	-	0.550000	3131	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	9	0	0	NaN	9.786000	2403.360323	151.267445	-	2.046838	3272	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	0	10	0	0	NaN	9.786000	2349.633274	48.325418	-	0.122646	1142	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	0	0	0	NaN	9.786000	2413.840184	160.214063	-	0.000000	3312	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	1	0	0	NaN	9.786000	2412.100853	169.486000	-	0.650000	3471	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	2	0	0	NaN	9.786000	2408.097238	168.634991	-	1.900000	3486	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	3	0	0	NaN	9.786000	2403.450433	166.853380	-	2.987404	3520	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	4	0	0	NaN	9.786000	2399.528878	49.236000	-	1.500000	1072	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	5	0	0	NaN	9.786000	2397.272603	49.086000	-	0.850000	1065	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	6	0	0	NaN	9.786000	2397.663010	49.086000	-	1.150000	1066	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	7	0	0	NaN	9.786000	2402.139865	164.888462	-	3.317448	3484	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	8	0	0	NaN	9.786000	2408.268886	163.194593	-	0.900000	3370	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	9	0	0	NaN	9.786000	2406.154967	179.282541	-	0.756396	3670	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	1	10	0	0	NaN	9.786000	2365.545481	48.536000	-	0.113288	1058	NaN	NaN	0.451000	Primary stage
+Simulation_extensions	2	0	0	0	NaN	9.786000	2882.103074	190.321324	-	0.000000	3966	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	1	0	0	NaN	9.786000	2881.225477	191.886000	-	0.500000	3980	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	2	0	0	NaN	9.786000	2878.871555	191.266030	-	0.950000	3975	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	3	0	0	NaN	9.786000	2875.427629	190.586060	-	2.450000	4012	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	4	0	0	NaN	9.786000	2871.294178	188.079840	-	4.419418	4063	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	5	0	0	NaN	9.786000	2866.865836	52.943125	-	1.500000	1204	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	6	0	0	NaN	9.786000	2862.574931	52.786000	-	0.000000	1215	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	7	0	0	NaN	9.786000	2858.828167	52.686000	-	0.000000	1193	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	8	0	0	NaN	9.786000	2856.038857	52.586000	-	0.000000	1203	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	9	0	0	NaN	9.786000	2854.469166	52.586000	-	0.000000	1198	NaN	NaN	0.022500	Primary stage
+Simulation_extensions	2	10	0	0	NaN	9.786000	2854.232033	52.586000	-	0.000000	1200	NaN	NaN	0.022500	Primary stage
+Simulation_scripting	0	0	0	0	NaN	9.786000	2413.846952	152.641101	-	0.000000	3285	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	1	0	0	NaN	9.786000	2412.204323	149.236715	-	0.650000	3186	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	2	0	0	NaN	9.786000	2408.392919	142.428619	-	2.250000	3103	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	3	0	0	NaN	9.786000	2403.853951	49.614712	-	3.033092	1214	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	4	0	0	NaN	9.786000	2399.827223	49.100975	-	1.666277	1196	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	5	0	0	NaN	9.786000	2397.177682	49.000425	-	0.388716	1195	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	6	0	0	NaN	9.786000	2396.779758	49.020312	-	0.341412	1191	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	7	0	0	NaN	9.786000	2400.246905	49.223999	-	2.087627	1200	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	8	0	0	NaN	9.786000	2406.131954	143.269511	-	2.100000	3080	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	9	0	0	NaN	9.786000	2408.405423	148.452729	-	0.306563	3172	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	0	10	0	0	NaN	9.786000	2390.264997	49.248711	-	2.685379	1201	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	0	0	0	NaN	9.786000	2413.846952	152.641101	-	0.000000	3285	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	1	0	0	NaN	9.786000	2412.204323	149.236715	-	0.650000	3186	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	2	0	0	NaN	9.786000	2408.392919	142.428619	-	2.250000	3103	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	3	0	0	NaN	9.786000	2403.853951	49.614712	-	3.033092	1214	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	4	0	0	NaN	9.786000	2399.827223	49.100975	-	1.666277	1196	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	5	0	0	NaN	9.786000	2397.177682	49.000425	-	0.388716	1195	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	6	0	0	NaN	9.786000	2396.779758	49.020312	-	0.341412	1191	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	7	0	0	NaN	9.786000	2400.246905	49.223999	-	2.087627	1200	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	8	0	0	NaN	9.786000	2406.131954	143.269511	-	2.100000	3080	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	9	0	0	NaN	9.786000	2408.405423	148.452729	-	0.306563	3172	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	1	10	0	0	NaN	9.786000	2390.264997	49.248711	-	2.685379	1201	NaN	NaN	0.451000	Primary stage
+Simulation_scripting	2	0	0	0	NaN	9.786000	2413.845267	150.834037	-	0.000000	3215	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	1	0	0	NaN	9.786000	2412.132126	147.982229	-	0.650000	3150	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	2	0	0	NaN	9.786000	2408.498599	142.398544	-	2.200000	3080	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	3	0	0	NaN	9.786000	2404.767755	49.844182	-	3.588303	1217	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	4	0	0	NaN	9.786000	2402.516354	49.323600	-	2.444930	1191	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	5	0	0	NaN	9.786000	2403.539593	49.588578	-	2.944547	1203	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	6	0	0	NaN	9.786000	2407.493185	143.645286	-	1.900000	3090	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	7	0	0	NaN	9.786000	2410.393006	149.125926	-	0.300000	3181	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	8	0	0	NaN	9.786000	2400.783069	141.054500	-	2.150000	3111	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	9	0	0	NaN	9.786000	2346.011743	48.294961	-	0.066963	1166	NaN	NaN	0.321000	Primary stage
+Simulation_scripting	2	10	0	0	NaN	9.786000	2175.568019	46.452464	-	0.156641	1129	NaN	NaN	0.321000	Primary stage
+TRF_test01	0	0	0	0	NaN	2.726000	2904.693079	179.271000	-	0.050000	18040	NaN	NaN	0.185500	Stage
+TRF_test01	0	1	0	0	NaN	2.726000	2903.982993	179.151000	-	0.430000	18028	NaN	NaN	0.185500	Stage
+TRF_test01	0	2	0	0	NaN	2.726000	2902.025071	178.701000	-	0.830000	17983	NaN	NaN	0.185500	Stage
+TRF_test01	0	3	0	0	NaN	2.726000	2899.035820	178.691000	-	1.900000	17982	NaN	NaN	0.185500	Stage
+TRF_test01	0	4	0	0	NaN	2.726000	2895.216158	177.071000	-	2.670000	17820	NaN	NaN	0.185500	Stage
+TRF_test01	0	5	0	0	NaN	2.726000	2890.771719	50.511000	-	2.000000	5164	NaN	NaN	0.185500	Stage
+TRF_test01	0	6	0	0	NaN	2.726000	2885.914777	50.291000	-	0.150000	5142	NaN	NaN	0.185500	Stage
+TRF_test01	0	7	0	0	NaN	2.726000	2880.850214	50.151000	-	0.000000	5128	NaN	NaN	0.185500	Stage
+TRF_test01	0	8	0	0	NaN	2.726000	2875.771333	50.061000	-	0.000000	5119	NaN	NaN	0.185500	Stage
+TRF_test01	0	9	0	0	NaN	2.726000	2870.864558	49.991000	-	0.000000	5112	NaN	NaN	0.185500	Stage
+TRF_test01	0	10	0	0	NaN	2.726000	2866.325161	49.931000	-	0.000000	5106	NaN	NaN	0.185500	Stage
+Three_stage_low_power_rocket	0	0	0	0	NaN	0.857000	266.409321	18.166528	-	1.801514	1362	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	0	0	1	NaN	1.714000	75.436159	10.385366	-	3.262500	3534	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	0	0	2	NaN	0.857000	26.289920	5.332435	-	1.587500	1813	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	1	0	0	NaN	0.857000	263.970328	16.169055	-	0.000000	621	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	1	0	1	NaN	1.714000	74.470956	10.293059	-	3.247500	3527	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	1	0	2	NaN	0.857000	24.566575	5.112000	-	1.532500	1778	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	2	0	0	NaN	0.857000	256.194879	15.894000	-	0.000000	417	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	2	0	1	NaN	1.714000	72.782199	10.131349	-	3.177500	3498	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	2	0	2	NaN	0.857000	24.203951	5.069500	-	1.520000	1772	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	3	0	0	NaN	0.857000	244.546127	15.543492	-	0.000000	458	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	3	0	1	NaN	1.714000	71.001792	9.964874	-	3.137500	3478	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	3	0	2	NaN	0.857000	23.795794	5.022000	-	1.485000	1779	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	4	0	0	NaN	0.857000	229.608494	15.044000	-	0.000000	483	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	4	0	1	NaN	1.714000	68.737554	9.749000	-	3.037500	3429	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	4	0	2	NaN	0.857000	23.302933	4.962000	-	1.480000	1774	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	5	0	0	NaN	0.857000	215.058224	14.594000	-	0.000000	518	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	5	0	1	NaN	1.714000	66.145320	9.494000	-	2.900000	3367	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	5	0	2	NaN	0.857000	22.752703	4.894500	-	1.445000	1768	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	6	0	0	NaN	0.857000	201.627952	14.094000	-	0.000000	539	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	6	0	1	NaN	1.714000	64.126786	9.304000	-	2.867500	3322	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	6	0	2	NaN	0.857000	22.213664	4.827000	-	1.407500	1756	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	7	0	0	NaN	0.857000	190.025411	13.715490	-	0.000000	562	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	7	0	1	NaN	1.714000	62.109757	9.111500	-	2.777500	3271	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	7	0	2	NaN	0.857000	21.788185	4.774500	-	1.417500	1747	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	8	0	0	NaN	0.857000	180.128534	13.344000	-	0.000000	583	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	8	0	1	NaN	1.714000	60.356575	8.939000	-	2.702500	3231	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	8	0	2	NaN	0.857000	21.365871	4.719500	-	1.392500	1739	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	9	0	0	NaN	0.857000	172.197646	13.094000	-	0.000000	595	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	9	0	1	NaN	1.714000	59.139864	8.824000	-	2.662500	3198	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	9	0	2	NaN	0.857000	21.077585	4.682000	-	1.370000	1725	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	10	0	0	NaN	0.857000	165.977602	12.827774	-	0.000000	608	NaN	NaN	0.271500	Sustainer
+Three_stage_low_power_rocket	0	10	0	1	NaN	1.714000	57.906163	8.701500	-	2.617500	3165	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	0	10	0	2	NaN	0.857000	20.750784	4.637000	-	1.365000	1712	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	0	0	0	NaN	0.857000	495.914271	24.926858	-	1.912170	1548	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	0	0	1	NaN	1.714000	71.391546	10.045294	-	3.127500	3397	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	0	0	2	NaN	0.857000	24.775575	5.179453	-	1.525000	1748	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	1	0	0	NaN	0.857000	489.617665	22.616886	-	0.000000	596	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	1	0	1	NaN	1.714000	69.375499	9.837889	-	3.067500	3337	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	1	0	2	NaN	0.857000	22.988786	4.944500	-	1.467500	1701	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	2	0	0	NaN	0.857000	470.003060	22.124000	-	0.000000	575	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	2	0	1	NaN	1.714000	67.284762	9.626698	-	3.017500	3304	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	2	0	2	NaN	0.857000	22.633400	4.902000	-	1.457500	1710	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	3	0	0	NaN	0.857000	441.676303	21.374000	-	0.000000	597	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	3	0	1	NaN	1.714000	64.956214	9.389000	-	2.887500	3250	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	3	0	2	NaN	0.857000	22.189052	4.847000	-	1.447500	1706	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	4	0	0	NaN	0.857000	408.106484	20.504448	-	0.000000	639	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	4	0	1	NaN	1.714000	62.133744	9.101500	-	2.812500	3171	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	4	0	2	NaN	0.857000	21.663175	4.782000	-	1.397500	1697	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	5	0	0	NaN	0.857000	375.905263	19.637453	-	0.000000	660	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	5	0	1	NaN	1.714000	59.527820	8.841500	-	2.685000	3104	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	5	0	2	NaN	0.857000	21.088366	4.709500	-	1.387500	1686	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	6	0	0	NaN	0.857000	347.612145	18.818308	-	0.000000	676	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	6	0	1	NaN	1.714000	57.126670	8.596500	-	2.547500	3039	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	6	0	2	NaN	0.857000	20.565378	4.642000	-	1.345000	1675	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	7	0	0	NaN	0.857000	324.121100	18.174000	-	0.000000	678	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	7	0	1	NaN	1.714000	55.232774	8.414000	-	2.502500	2994	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	7	0	2	NaN	0.857000	20.188512	4.594500	-	1.327500	1667	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	8	0	0	NaN	0.857000	305.127617	17.624000	-	0.000000	700	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	8	0	1	NaN	1.714000	53.592845	8.249000	-	2.415000	2950	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	8	0	2	NaN	0.857000	19.827703	4.547000	-	1.322500	1656	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	9	0	0	NaN	0.857000	290.265220	17.224000	-	0.000000	711	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	9	0	1	NaN	1.714000	52.172554	8.101500	-	2.370000	2910	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	9	0	2	NaN	0.857000	19.483536	4.499500	-	1.292500	1641	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	10	0	0	NaN	0.857000	279.563142	16.887392	-	0.000000	730	NaN	NaN	0.275000	Sustainer
+Three_stage_low_power_rocket	1	10	0	1	NaN	1.714000	51.402091	8.026500	-	2.345000	2900	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	1	10	0	2	NaN	0.857000	19.273780	4.467000	-	1.300000	1634	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	0	0	0	NaN	1.860000	679.529452	30.809403	-	2.372620	1500	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	0	0	1	NaN	3.720000	199.539177	22.470000	-	7.455000	7605	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	0	0	2	NaN	1.860000	62.775054	9.557373	-	2.912500	3142	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	1	0	0	NaN	1.860000	663.425263	27.830000	-	0.000000	695	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	1	0	1	NaN	3.720000	197.455846	22.448730	-	7.605000	7612	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	1	0	2	NaN	1.860000	61.152851	9.384655	-	2.845000	3108	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	2	0	0	NaN	1.860000	621.060698	26.821219	-	0.000000	675	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	2	0	1	NaN	3.720000	191.420610	22.335000	-	7.777500	7591	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	2	0	2	NaN	1.860000	60.012312	9.270000	-	2.825000	3089	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	3	0	0	NaN	1.860000	562.709157	25.380000	-	0.000000	676	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	3	0	1	NaN	3.720000	181.011067	20.870290	-	6.755000	7041	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	3	0	2	NaN	1.860000	58.163155	9.080000	-	2.747500	3048	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	4	0	0	NaN	1.860000	498.536853	23.828094	-	0.000000	694	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	4	0	1	NaN	3.720000	172.861570	21.257260	-	7.900000	7230	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	4	0	2	NaN	1.860000	56.053683	8.862500	-	2.635000	2995	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	5	0	0	NaN	1.860000	442.353883	22.380000	-	0.000000	702	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	5	0	1	NaN	3.720000	161.081375	20.402500	-	7.892500	6911	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	5	0	2	NaN	1.860000	54.125724	8.665000	-	2.575000	2939	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	6	0	0	NaN	1.860000	398.508048	21.261582	-	0.000000	754	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	6	0	1	NaN	3.720000	150.620420	18.291581	-	5.752500	6096	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	6	0	2	NaN	1.860000	52.354956	8.480000	-	2.485000	2890	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	7	0	0	NaN	1.860000	365.080047	20.366550	-	0.000000	725	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	7	0	1	NaN	3.720000	147.845893	18.205922	-	5.700000	6083	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	7	0	2	NaN	1.860000	50.983850	8.340000	-	2.420000	2856	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	8	0	0	NaN	1.860000	342.855283	19.729838	-	0.000000	705	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	8	0	1	NaN	3.720000	142.762553	19.012625	-	7.380000	6435	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	8	0	2	NaN	1.860000	49.986371	8.235000	-	2.400000	2841	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	9	0	0	NaN	1.860000	329.443464	19.369335	-	0.000000	745	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	9	0	1	NaN	3.720000	140.021101	18.269832	-	6.365000	6149	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	9	0	2	NaN	1.860000	49.474981	8.177500	-	2.360000	2829	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	10	0	0	NaN	1.860000	326.689158	19.327630	-	0.000000	768	NaN	NaN	0.274289	Sustainer
+Three_stage_low_power_rocket	2	10	0	1	NaN	3.720000	139.153512	18.497993	-	7.015000	6262	NaN	NaN	NaN	Booster stage
+Three_stage_low_power_rocket	2	10	0	2	NaN	1.860000	49.287799	8.160000	-	2.375000	2837	NaN	NaN	NaN	Booster stage
+Tube_fin_rocket	0	0	0	0	NaN	1.650000	282.460527	17.664564	-	0.669280	650	NaN	NaN	0.195138	Sustainer
+Tube_fin_rocket	0	1	0	0	NaN	1.650000	282.312004	17.583704	-	0.644210	599	NaN	NaN	0.195130	Sustainer
+Tube_fin_rocket	0	2	0	0	NaN	1.650000	281.908600	17.582141	-	0.940000	609	NaN	NaN	0.195120	Sustainer
+Tube_fin_rocket	0	3	0	0	NaN	1.650000	281.336845	17.388518	-	1.299829	623	NaN	NaN	0.195116	Sustainer
+Tube_fin_rocket	0	4	0	0	NaN	1.650000	280.648743	17.232565	-	1.152299	625	NaN	NaN	0.195117	Sustainer
+Tube_fin_rocket	0	5	0	0	NaN	1.650000	279.879240	17.203757	-	1.012038	625	NaN	NaN	0.195120	Sustainer
+Tube_fin_rocket	0	6	0	0	NaN	1.650000	279.095587	17.046803	-	0.618955	619	NaN	NaN	0.195124	Sustainer
+Tube_fin_rocket	0	7	0	0	NaN	1.650000	278.338454	16.974933	-	0.121555	592	NaN	NaN	0.195130	Sustainer
+Tube_fin_rocket	0	8	0	0	NaN	1.650000	277.685360	16.920478	-	0.000000	587	NaN	NaN	0.195139	Sustainer
+Tube_fin_rocket	0	9	0	0	NaN	1.650000	277.263101	16.884619	-	0.000000	584	NaN	NaN	0.195151	Sustainer
+Tube_fin_rocket	0	10	0	0	NaN	1.650000	277.115547	16.850000	-	0.000000	584	NaN	NaN	0.195168	Sustainer
+Two_stage_high_power_rocket	0	0	0	0	NaN	1.535000	671.111199	78.407868	-	0.000000	1813	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	0	0	1	NaN	1.535000	163.362737	14.056797	-	2.357368	1796	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	1	0	0	NaN	1.535000	670.078955	78.434732	-	0.500000	1691	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	1	0	1	NaN	1.535000	163.172646	13.294347	-	1.863778	1333	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	2	0	0	NaN	1.535000	667.163160	25.838124	-	1.169272	676	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	2	0	1	NaN	1.535000	162.639706	12.842765	-	1.843231	995	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	3	0	0	NaN	1.535000	662.431354	25.489512	-	0.000000	616	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	3	0	1	NaN	1.535000	161.802450	12.628149	-	1.067037	763	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	4	0	0	NaN	1.535000	655.992881	25.335707	-	0.000000	594	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	4	0	1	NaN	1.535000	160.686439	12.472480	-	0.038531	597	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	5	0	0	NaN	1.535000	648.276501	25.157539	-	0.000000	594	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	5	0	1	NaN	1.535000	159.331055	12.331269	-	0.000000	472	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	6	0	0	NaN	1.535000	639.555292	24.961093	-	0.000000	608	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	6	0	1	NaN	1.535000	157.767970	12.289316	-	0.000000	411	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	7	0	0	NaN	1.535000	629.807171	24.765839	-	0.000000	611	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	7	0	1	NaN	1.535000	156.040286	12.172449	-	0.000000	384	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	8	0	0	NaN	1.535000	619.344125	24.510362	-	0.000000	617	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	8	0	1	NaN	1.535000	154.196452	12.119073	-	0.000000	390	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	9	0	0	NaN	1.535000	609.461364	24.320000	-	0.000000	615	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	9	0	1	NaN	1.535000	152.430126	12.006714	-	0.000000	392	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	0	10	0	0	NaN	1.535000	600.290836	24.116913	-	0.000000	619	NaN	NaN	0.367000	Sustainer
+Two_stage_high_power_rocket	0	10	0	1	NaN	1.535000	150.796792	11.949609	-	0.000000	399	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	0	0	0	NaN	1.515000	1379.878584	157.017536	-	0.050000	3435	NaN	NaN	0.153899	Sustainer
+Two_stage_high_power_rocket	1	0	0	1	NaN	1.515000	261.772955	17.392094	-	2.322745	1879	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	1	0	0	NaN	1.515000	1377.691458	156.544121	-	1.617139	3451	NaN	NaN	0.153899	Sustainer
+Two_stage_high_power_rocket	1	1	0	1	NaN	1.515000	261.547530	16.596229	-	1.878447	1434	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	2	0	0	NaN	1.515000	1371.271856	40.799133	-	0.000000	968	NaN	NaN	0.153900	Sustainer
+Two_stage_high_power_rocket	1	2	0	1	NaN	1.515000	260.905252	16.163444	-	1.923012	1115	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	3	0	0	NaN	1.515000	1360.994730	40.516051	-	0.000000	917	NaN	NaN	0.153901	Sustainer
+Two_stage_high_power_rocket	1	3	0	1	NaN	1.515000	259.888798	15.914581	-	1.154445	865	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	4	0	0	NaN	1.515000	1347.561686	40.266051	-	0.000000	912	NaN	NaN	0.153902	Sustainer
+Two_stage_high_power_rocket	1	4	0	1	NaN	1.515000	258.533965	15.765000	-	0.173719	687	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	5	0	0	NaN	1.515000	1330.995890	39.966051	-	0.000000	915	NaN	NaN	0.153902	Sustainer
+Two_stage_high_power_rocket	1	5	0	1	NaN	1.515000	256.875307	15.662230	-	0.000000	561	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	6	0	0	NaN	1.515000	1312.703318	39.616051	-	0.000000	907	NaN	NaN	0.153902	Sustainer
+Two_stage_high_power_rocket	1	6	0	1	NaN	1.515000	254.961604	15.562873	-	0.000000	469	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	7	0	0	NaN	1.515000	1293.520585	39.266051	-	0.000000	923	NaN	NaN	0.153901	Sustainer
+Two_stage_high_power_rocket	1	7	0	1	NaN	1.515000	252.958726	15.489316	-	0.000000	445	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	8	0	0	NaN	1.515000	1274.790574	38.866051	-	0.000000	935	NaN	NaN	0.153901	Sustainer
+Two_stage_high_power_rocket	1	8	0	1	NaN	1.515000	250.983475	15.415608	-	0.000000	444	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	9	0	0	NaN	1.515000	1256.975302	38.566051	-	0.000000	928	NaN	NaN	0.153901	Sustainer
+Two_stage_high_power_rocket	1	9	0	1	NaN	1.515000	249.103356	15.307308	-	0.000000	439	NaN	NaN	NaN	Booster
+Two_stage_high_power_rocket	1	10	0	0	NaN	1.515000	1241.282052	38.266051	-	0.000000	933	NaN	NaN	0.153900	Sustainer
+Two_stage_high_power_rocket	1	10	0	1	NaN	1.515000	247.380812	15.253843	-	0.000000	452	NaN	NaN	NaN	Booster

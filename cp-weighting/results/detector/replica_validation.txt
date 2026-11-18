@@ -1,0 +1,7 @@
+replica C0 vs real detector, base CP: main branches 1210/1210 exact; separated branches 276/330 exact
+replica C0 vs real detector, fixed CP: main branches 1210/1210 exact; separated branches 277/330 exact
+replica C2 vs Java C2 (fixed CP), main branches: 1206/1210 exact
+   differs: (('Deployable_payload', '0', '0', '0', '0'), 3.736464, 3.742614654)
+   differs: (('Deployable_payload', '0', '1', '0', '0'), 3.7475, 3.75)
+   differs: (('Deployable_payload', '1', '0', '0', '0'), 5.047813, 5.06046875)
+   differs: (('Deployable_payload', '1', '1', '0', '0'), 5.078676, 5.087305991)
