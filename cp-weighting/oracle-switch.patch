@@ -1,0 +1,14 @@
+diff --git a/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java b/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
+index 3c5222bb..0a5a36ba 100644
+--- a/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
++++ b/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
+@@ -347,7 +347,8 @@ public class BasicEventSimulationEngine implements SimulationEngine {
+ 					final double airSpeed = branch.getLast(FlightDataType.TYPE_MACH_NUMBER)
+ 							* branch.getLast(FlightDataType.TYPE_SPEED_OF_SOUND);
+ 
+-					final boolean tumbling = currentStatus.getTumbleDetector().update(
++					// ORACLE ONLY: OR_ORACLE disables the tumble detector to obtain the uninterrupted 6-DOF trajectory
++					final boolean tumbling = System.getenv("OR_ORACLE") == null && currentStatus.getTumbleDetector().update(
+ 							currentStatus.getSimulationTime(),
+ 							currentStatus.isLaunchRodCleared(),
+ 							aoa,

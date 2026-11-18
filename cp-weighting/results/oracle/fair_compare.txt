@@ -1,0 +1,11 @@
+base misses (primary): margin H - t* min 0.001 median 0.051 max 43.689 s
+  margin < 0.1 s: 56 of 102
+  margin < 0.25 s: 62 of 102
+  margin < 0.5 s: 68 of 102
+  margin < 1.0 s: 82 of 102
+  margin < 2.0 s: 87 of 102
+misses counted with margin >= 0.0 s: prototype fewer errors in 21, equal 2, more 4 of 27 (diff -7..2)
+misses counted with margin >= 0.5 s: prototype fewer errors in 10, equal 6, more 11 of 27 (diff -4..5)
+misses counted with margin >= 1.0 s: prototype fewer errors in 2, equal 6, more 19 of 27 (diff -2..7)
+misses counted with margin >= 2.0 s: prototype fewer errors in 1, equal 1, more 25 of 27 (diff -1..8)
+primary, margin >= 0.5 s: base FP 10 FN 34 (total 44) | prototype FP 13 FN 36 (total 49)

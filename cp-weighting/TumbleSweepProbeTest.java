@@ -65,14 +65,20 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 			dumpKeys.addAll(Arrays.asList(System.getenv("SW_DUMP_KEYS").split(";")));
 		}
 		boolean onlyDump = dumpDir != null && !dumpKeys.isEmpty();
+		if ("1".equals(System.getenv("SW_DUMP_ALL")) && dumpDir == null) {
+			throw new IllegalStateException("SW_DUMP_ALL needs SW_DUMP_DIR");
+		}
 		try (PrintWriter pw = new PrintWriter(new FileWriter(System.getenv("SW_OUT")))) {
-			pw.println("rocket\tsim\twind\trec\tbranch\ttumble_t\tburnout_t\tapogee_m\tland_t\tabort\tt_aoa_20_90\tn_points");
+			pw.println("rocket\tsim\twind\trec\tbranch\ttumble_t\tburnout_t\tapogee_m\tland_t\tabort\tt_aoa_20_90\tn_points\tdeploy_t\tabort_t\tlaunchrod_t");
 			for (File ork : orks) {
 				String name = ork.getName().replace(".ork", "").replace(' ', '_');
 				int nSims = new GeneralRocketLoader(ork).load().getSimulations().size();
 				for (int s = 0; s < nSims; s++) {
 					for (String ws : winds) {
 						for (int rec = 1; rec >= 0; rec--) {
+							if (System.getenv("SW_REC_ONLY") != null && rec != Integer.parseInt(System.getenv("SW_REC_ONLY"))) {
+								continue;
+							}
 							String key = name + "|" + s + "|" + ws + "|" + rec;
 							if (onlyDump && !dumpKeys.contains(key)) {
 								continue;
@@ -108,8 +114,10 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 								continue;
 							}
 							FlightData fd = sim.getSimulatedData();
-							if (onlyDump) {
-								dump(new File(dumpDir, key.replace('|', '_') + ".tsv"), fd.getBranch(0));
+							if (onlyDump || "1".equals(System.getenv("SW_DUMP_ALL"))) {
+								for (int bi = 0; bi < fd.getBranchCount(); bi++) {
+									dump(new File(dumpDir, key.replace('|', '_') + "_b" + bi + ".tsv"), fd.getBranch(bi));
+								}
 							}
 							for (int i = 0; i < fd.getBranchCount(); i++) {
 								FlightDataBranch b = fd.getBranch(i);
@@ -117,7 +125,10 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 										name, s, ws, rec, i,
 										time(b, FlightEvent.Type.TUMBLE), time(b, FlightEvent.Type.BURNOUT),
 										b.getMaximum(FlightDataType.TYPE_ALTITUDE), time(b, FlightEvent.Type.GROUND_HIT),
-										abortCause(b), timeAoaBand(b), b.getLength()));
+										abortCause(b), timeAoaBand(b), b.getLength())
+										+ String.format(Locale.ROOT, "\t%.6f\t%.6f\t%.6f",
+												time(b, FlightEvent.Type.RECOVERY_DEVICE_DEPLOYMENT),
+												time(b, FlightEvent.Type.SIM_ABORT), time(b, FlightEvent.Type.LAUNCHROD)));
 							}
 						}
 					}
@@ -185,7 +196,7 @@ public class TumbleSweepProbeTest extends BaseTestCase {
 				StringBuilder r = new StringBuilder();
 				for (FlightDataType c : cols) {
 					List<Double> col = b.get(c);
-					r.append(String.format(Locale.ROOT, "%.17g", col == null || k >= col.size() ? Double.NaN : col.get(k)))
+					r.append(String.format(Locale.ROOT, "%.10g", col == null || k >= col.size() ? Double.NaN : col.get(k)))
 							.append('\t');
 				}
 				dw.println(r.toString().trim());

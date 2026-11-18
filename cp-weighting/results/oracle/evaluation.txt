@@ -1,0 +1,38 @@
+PRIMARY (settle rule, A=20 deg, D=0.5 s, W=3 s)
+  base: {'TP': 377, 'FP': 10, 'FN': 102, 'TN': 1051, 'skipped': 0}  precision 0.974  recall 0.787  median latency 0.061 s (n=377)
+  fix: {'TP': 381, 'FP': 13, 'FN': 101, 'TN': 1045, 'skipped': 0}  precision 0.967  recall 0.790  median latency 0.057 s (n=381)
+  branches whose verdict differs: 18; transitions base->fix: {('FN', 'TP'): 6, ('TP', 'FN'): 1, ('FP', 'FN'): 4, ('TP', 'FP'): 1, ('TN', 'FP'): 6}
+
+SENSITIVITY (settle rule): A D W -> base [TP FP FN] | fix [TP FP FN] | errors
+  15 0.3 2:  base [381   6 122] | fix [387   7 115] | base 128  fix 122
+  15 0.3 3:  base [374  13 100] | fix [379  15  99] | base 113  fix 114
+  15 0.3 5:  base [360  27  85] | fix [366  28  79] | base 112  fix 107
+  15 0.5 2:  base [382   5 134] | fix [387   7 127] | base 139  fix 134
+  15 0.5 3:  base [379   8 105] | fix [387   7 104] | base 113  fix 111
+  15 0.5 5:  base [365  22  88] | fix [370  24  83] | base 110  fix 107
+  15 1.0 2:  base [386   1 140] | fix [393   1 133] | base 141  fix 134
+  15 1.0 3:  base [382   5 120] | fix [387   7 113] | base 125  fix 120
+  15 1.0 5:  base [368  19  92] | fix [373  21  87] | base 111  fix 108
+  20 0.3 2:  base [379   8 110] | fix [385   9 107] | base 118  fix 116
+  20 0.3 3:  base [370  17  97] | fix [375  19  95] | base 114  fix 114
+  20 0.3 5:  base [356  31  80] | fix [362  32  74] | base 111  fix 106
+  20 0.5 2:  base [382   5 126] | fix [387   7 119] | base 131  fix 126
+  20 0.5 3:  base [377  10 102] | fix [381  13 101] | base 112  fix 114
+  20 0.5 5:  base [364  23  87] | fix [369  25  82] | base 110  fix 107
+  20 1.0 2:  base [386   1 138] | fix [387   7 131] | base 139  fix 138
+  20 1.0 3:  base [382   5 111] | fix [387   7 108] | base 116  fix 115
+  20 1.0 5:  base [365  22  89] | fix [370  24  84] | base 111  fix 108
+  30 0.3 2:  base [371  16  98] | fix [376  18  97] | base 114  fix 115
+  30 0.3 3:  base [361  26  86] | fix [366  28  81] | base 112  fix 109
+  30 0.3 5:  base [344  43  74] | fix [349  45  68] | base 117  fix 113
+  30 0.5 2:  base [379   8 108] | fix [385   9 103] | base 116  fix 112
+  30 0.5 3:  base [374  13  95] | fix [380  14  94] | base 108  fix 108
+  30 0.5 5:  base [360  27  77] | fix [366  28  71] | base 104  fix  99
+  30 1.0 2:  base [385   2 132] | fix [387   7 125] | base 134  fix 132
+  30 1.0 3:  base [377  10 100] | fix [382  12  99] | base 110  fix 111
+  30 1.0 5:  base [362  25  85] | fix [367  27  80] | base 110  fix 107
+
+SECOND CRITERION (rotation: >= 2 crossings of 90 deg within W, or the thrust rule)
+  W=2: base {'TP': 235, 'FP': 152, 'FN': 48, 'TN': 1105, 'skipped': 0} | fix {'TP': 240, 'FP': 154, 'FN': 49, 'TN': 1097, 'skipped': 0}
+  W=3: base {'TP': 240, 'FP': 147, 'FN': 49, 'TN': 1104, 'skipped': 0} | fix {'TP': 245, 'FP': 149, 'FN': 50, 'TN': 1096, 'skipped': 0}
+  W=5: base {'TP': 240, 'FP': 147, 'FN': 54, 'TN': 1099, 'skipped': 0} | fix {'TP': 245, 'FP': 149, 'FN': 55, 'TN': 1091, 'skipped': 0}
