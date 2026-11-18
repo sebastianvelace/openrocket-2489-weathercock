@@ -1,0 +1,8 @@
+# Third-party files from the TRF thread: not redistributed
+test01.ork
+test01.rkt
+test01.CDX1
+# Reference PDFs: linked in README instead
+refs/
+__pycache__/
+ISSUE_2489_COMMENT_DRAFT.md

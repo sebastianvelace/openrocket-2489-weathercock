@@ -1,0 +1,12 @@
+# Source: TRF thread "Weathercock simulations all over the place" (thread 186584), post #1 by Buckeye, May 30 2024.
+# Transcribed by hand from a screenshot of the summary table. Generic HPR, time step 0.01 s in all tools.
+# OpenRocket version used in the thread: 23.09 (per issue #2489). Units: wind mph, apogee ft, upwind ft.
+# Static stability (calibers): OR 1.52, RockSim-RockSimCP 2.72, RockSim-Barrowman 1.51, RASAero II 2.34
+wind_mph	or_apogee	or_ratio	or_upwind	rsrs_apogee	rsrs_ratio	rsrs_upwind	rsbm_apogee	rsbm_ratio	rsbm_upwind	ra_apogee	ra_ratio	ra_upwind
+0	9802	1.000	13	9728	1.000	0	9729	1.000	0	10005	1.000	0
+5	9794	0.999	327	9686	0.996	544	9692	0.996	416	9989	0.998	375
+10	9775	0.997	530	9646	0.992	1010	9667	0.994	756	9962	0.996	698
+15	9760	0.996	585	9584	0.985	1423	9630	0.990	1048	9918	0.991	1016
+20	9759	0.996	421	9506	0.977	1786	9583	0.985	1296	9859	0.985	1324
+25	9777	0.997	-118	9416	0.968	2104	9530	0.980	1506	9789	0.978	1587
+30	9715	0.991	-1930	9318	0.958	2378	9474	0.974	1677	9713	0.971	1801

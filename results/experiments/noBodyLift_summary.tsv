@@ -1,0 +1,8 @@
+label	mph	apogee_m	x_apo_m	t_apo
+noBodyLift	0	2904.683	-0.012	21.741
+noBodyLift	5	2900.977	124.503	21.731
+noBodyLift	10	2889.805	248.733	21.701
+noBodyLift	15	2870.969	372.168	21.621
+noBodyLift	20	2844.376	494.679	21.491
+noBodyLift	25	2810.724	612.825	21.331
+noBodyLift	30	2773.478	715.133	21.161

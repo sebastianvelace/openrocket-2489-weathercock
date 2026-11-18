@@ -1,0 +1,24 @@
+git bisect start '--first-parent' '--term-old=old' '--term-new=new'
+# status: waiting for both good and bad commits
+# new: [f9aa33cb5aeca0b1fb46c06024b5227731567543] Merge pull request #3415 from openrocket/crowdin-translations
+git bisect new f9aa33cb5aeca0b1fb46c06024b5227731567543
+# status: waiting for good commit(s), bad commit known
+# old: [21b329d840cef7d75eaa9ea452b7d2d224a814e1] Merge pull request #3220 from SiboVG/fix/issue-2489-body-fin-interference
+git bisect old 21b329d840cef7d75eaa9ea452b7d2d224a814e1
+# new: [4af053749d8e3f0e71d87b244e837e460bd53eb4] Merge pull request #3344 from SiboVG/issue-3343
+git bisect new 4af053749d8e3f0e71d87b244e837e460bd53eb4
+# old: [8b4909c392f38401a6b86bf42de76bc5e2f8e823] Merge pull request #2952 from Gustave-M/bug_thickness
+git bisect old 8b4909c392f38401a6b86bf42de76bc5e2f8e823
+# old: [b5e4bfa4b928b4b1a5969639a25b3ea2189308c9] Merge pull request #3314 from SiboVG/fix/3306-photo-studio-motor-config
+git bisect old b5e4bfa4b928b4b1a5969639a25b3ea2189308c9
+# new: [6deae50796af9356c6541c9d5e6306ebebe0186f] Merge pull request #3260 from SiboVG/feature/monte-carlo-landing-dispersion
+git bisect new 6deae50796af9356c6541c9d5e6306ebebe0186f
+# old: [748bb2348d09246b8112c297ea7487c4ebb26124] Merge pull request #3178 from midasavocado/codex/mass-component-internal-children
+git bisect old 748bb2348d09246b8112c297ea7487c4ebb26124
+# old: [8235a476d268205b86e25dfc676aee3f83b321ed] Merge pull request #3315 from SiboVG/fix/3300-stable-3d-golden-canvas
+git bisect old 8235a476d268205b86e25dfc676aee3f83b321ed
+# new: [7bc36a7b0f93efe8873dc12925309201e86213d5] Merge pull request #3319 from thzero/massoverrideinertia
+git bisect new 7bc36a7b0f93efe8873dc12925309201e86213d5
+# old: [fe6ec251b697067e3e2a48b08050a526ec508367] Merge pull request #3283 from SiboVG/issue-3281
+git bisect old fe6ec251b697067e3e2a48b08050a526ec508367
+# first new commit: [7bc36a7b0f93efe8873dc12925309201e86213d5] Merge pull request #3319 from thzero/massoverrideinertia

@@ -1,0 +1,17 @@
+=== window1
+4af05374 metric=upwind10 value=213.893 apogee0=2981.372 upwind10=213.893 -> new
+8b4909c3 metric=upwind10 value=239.654 apogee0=2981.372 upwind10=239.654 -> old
+b5e4bfa4 metric=upwind10 value=235.551 apogee0=2981.372 upwind10=235.551 -> old
+6deae507 metric=upwind10 value=213.906 apogee0=2981.372 upwind10=213.906 -> new
+748bb234 metric=upwind10 value=235.561 apogee0=2981.372 upwind10=235.561 -> old
+8235a476 metric=upwind10 value=235.559 apogee0=2981.372 upwind10=235.559 -> old
+7bc36a7b metric=upwind10 value=213.896 apogee0=2981.372 upwind10=213.896 -> new
+fe6ec251 metric=upwind10 value=235.546 apogee0=2981.372 upwind10=235.546 -> old
+=== window2
+85b211fe metric=apogee0 value=2904.685 apogee0=2904.685 upwind10=205.221 -> new
+f18339c9 metric=apogee0 value=2904.685 apogee0=2904.685 upwind10=205.218 -> new
+b047c95d metric=apogee0 value=2981.372 apogee0=2981.372 upwind10=214.602 -> old
+a5f0f422 metric=apogee0 value=2904.685 apogee0=2904.685 upwind10=208.337 -> new
+990df552 metric=apogee0 value=2904.685 apogee0=2904.685 upwind10=208.343 -> new
+6490725d metric=apogee0 value=2981.372 apogee0=2981.372 upwind10=214.600 -> old
+=== done

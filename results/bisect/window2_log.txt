@@ -1,0 +1,20 @@
+git bisect start '--first-parent' '--term-old=old' '--term-new=new'
+# status: waiting for both good and bad commits
+# new: [33bdb6d3062a6d9ef44a00d1ff865f962136e9e9] Change workflow name
+git bisect new 33bdb6d3062a6d9ef44a00d1ff865f962136e9e9
+# status: waiting for good commit(s), bad commit known
+# old: [c933edac9b7265c8dd50f5f1df6785045f0da5a5] Merge pull request #3410 from SiboVG/fix-damping-moment
+git bisect old c933edac9b7265c8dd50f5f1df6785045f0da5a5
+# new: [85b211fed59d303f521bc8d92c439aa5a991bd23] Update CONTRIBUTING.md
+git bisect new 85b211fed59d303f521bc8d92c439aa5a991bd23
+# new: [f18339c9f6f00a9893a6ab33f4d7f17cac150ae8] Merge pull request #3439 from openrocket/update-splashscreen
+git bisect new f18339c9f6f00a9893a6ab33f4d7f17cac150ae8
+# old: [b047c95d70fd01a48e5ec1593cea7524781817c7] Merge pull request #3425 from openrocket/crowdin-translations
+git bisect old b047c95d70fd01a48e5ec1593cea7524781817c7
+# new: [a5f0f422ad6c42c7cd9fabc8609dc13321673b8a] Merge pull request #3433 from SiboVG/fix/jet-damping-nozzle-position
+git bisect new a5f0f422ad6c42c7cd9fabc8609dc13321673b8a
+# new: [990df5529dc6fa6e2905ebac37a5943535341f84] Merge pull request #3431 from SiboVG/fix/3391-ogive-supersonic-drag
+git bisect new 990df5529dc6fa6e2905ebac37a5943535341f84
+# old: [6490725d87e30d36c5b6aba9f847f06f87c44db5] Merge pull request #3430 from openrocket/crowdin-contributors
+git bisect old 6490725d87e30d36c5b6aba9f847f06f87c44db5
+# first new commit: [990df5529dc6fa6e2905ebac37a5943535341f84] Merge pull request #3431 from SiboVG/fix/3391-ogive-supersonic-drag
