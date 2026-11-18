@@ -1,0 +1,20 @@
+3D_printable_nose_cone_and_fins|0|1|1|0: fix fires first at 3.168 (base at inf); event GENUINE -> fix_right
+3D_printable_nose_cone_and_fins|0|10|0|0: fix fires first at 0.612 (base at 2.646); event GENUINE -> fix_right
+3D_printable_nose_cone_and_fins|0|10|1|0: fix fires first at 0.612 (base at 2.646); event GENUINE -> fix_right
+3D_printable_nose_cone_and_fins|0|2|1|0: fix fires first at 3.265 (base at inf); event GENUINE -> fix_right
+3D_printable_nose_cone_and_fins|0|3|1|0: fix fires first at 3.479 (base at inf); event GENUINE -> fix_right
+Clustered_motors|0|1|1|0: fix fires first at 3.723 (base at inf); event GENUINE -> fix_right
+Clustered_motors|4|2|1|0: fix fires first at 7.803 (base at inf); event GENUINE -> fix_right
+Parallel_booster_staging|0|2|1|0: fix fires first at 13.399 (base at inf); event GENUINE -> fix_right
+Pods--airframes_and_winglets|0|0|0|0: base fires first at 4.355 (fix at inf); event GENUINE -> base_right
+Pods--airframes_and_winglets|1|0|0|0: base fires first at 5.968 (fix at inf); event FALSE -> fix_right
+Pods--airframes_and_winglets|2|0|0|0: base fires first at 7.872 (fix at inf); event FALSE -> fix_right
+Pods--airframes_and_winglets|3|0|0|0: base fires first at 7.406 (fix at inf); event FALSE -> fix_right
+Pods--airframes_and_winglets|4|0|0|0: base fires first at 7.595 (fix at inf); event FALSE -> fix_right
+Tube_fin_rocket|0|0|0|0: fix fires first at 6.968 (base at inf); event FALSE -> base_right
+Tube_fin_rocket|0|0|1|0: fix fires first at 6.968 (base at inf); event FALSE -> base_right
+Tube_fin_rocket|0|1|0|0: fix fires first at 6.965 (base at inf); event FALSE -> base_right
+Tube_fin_rocket|0|1|1|0: fix fires first at 6.965 (base at inf); event FALSE -> base_right
+Tube_fin_rocket|0|2|0|0: fix fires first at 6.952 (base at inf); event FALSE -> base_right
+Tube_fin_rocket|0|2|1|0: fix fires first at 6.952 (base at inf); event FALSE -> base_right
+{'fix_right': 12, 'base_right': 7, 'undetermined': 0}

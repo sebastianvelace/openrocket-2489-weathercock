@@ -1,0 +1,36 @@
+diff --git a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
+index 3fb6ec7a..e6bdb24f 100644
+--- a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
++++ b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/FinSetCalc.java
+@@ -229,7 +229,12 @@ public class FinSetCalc extends RocketComponentCalc {
+ 		forces.setCroll(forces.getCrollForce() - forces.getCrollDamp());
+ 		
+ 		forces.setCN(cna * MathUtil.min(conditions.getAOA(), STALL_ANGLE));
+-		forces.setCP(new Coordinate(x, 0, 0, cna));
++		// CONTROL ONLY: physics-neutral perturbation of the CP weight above stall (rounding-sensitivity test)
++		double ctrlW = cna;
++		if (System.getenv("OR_CTRL_W_EPS") != null && conditions.getAOA() > STALL_ANGLE) {
++			ctrlW = cna * (1 + Double.parseDouble(System.getenv("OR_CTRL_W_EPS")));
++		}
++		forces.setCP(new Coordinate(x, 0, 0, ctrlW));
+ 		forces.setCm(forces.getCN() * x / conditions.getRefLength());
+ 		
+ 		/*
+diff --git a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java
+index 1cd27fc5..25290548 100644
+--- a/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java
++++ b/core/src/main/java/info/openrocket/core/aerodynamics/barrowman/TubeFinSetCalc.java
+@@ -178,7 +178,12 @@ public class TubeFinSetCalc extends TubeCalc {
+ 		forces.setCroll(forces.getCrollForce() - forces.getCrollDamp());
+ 
+ 		forces.setCN(cna * MathUtil.min(conditions.getAOA(), STALL_ANGLE));
+-		forces.setCP(new Coordinate(x, 0, 0, cna));
++		// CONTROL ONLY: physics-neutral perturbation of the CP weight above stall (rounding-sensitivity test)
++		double ctrlW = cna;
++		if (System.getenv("OR_CTRL_W_EPS") != null && conditions.getAOA() > STALL_ANGLE) {
++			ctrlW = cna * (1 + Double.parseDouble(System.getenv("OR_CTRL_W_EPS")));
++		}
++		forces.setCP(new Coordinate(x, 0, 0, ctrlW));
+ 		forces.setCm(forces.getCN() * x / conditions.getRefLength());
+ 
+ 		/*
