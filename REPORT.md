@@ -53,22 +53,30 @@ method, is too large for finite-length rockets. Choosing the fix belongs to the 
 - Test rocket. `test01.ork` from TRF thread 186584: fiberglass body 67.3 mm × 1.594 m (l/d 23.7),
   tangent ogive nose, three trapezoidal fins, AeroTech K513FJ, 8 ft rail (rail exit 26.95 m/s),
   max Mach 1.12, apogee ≈ 9530 ft.
-- Comparators. The RASAero file uses the same 8 ft rail. The RockSim file stores a 3 ft launch guide.
-  RockSim keeps per-simulation launch settings outside the design, so its runs may have used 3 ft. For
-  that reason RASAero is the comparison used in this report.
+- Comparators. The thread's author states that the effective guidance length (post #7), the mass and CG
+  overrides (post #19) and a rail exit of about 90 ft/s (post #22) were the same in all programs. The
+  3 ft `LaunchGuideLength` stored in the RockSim design file is therefore not what the simulations used.
+  (An earlier version of this report, and the first issue comment, wrongly set RockSim aside on that
+  basis.) RockSim-Barrowman is the closest comparator in static margin (1.51 vs 1.52 cal) but has no
+  body lift. RASAero's Rogers method includes body lift (nose carry-over and body in presence of fins,
+  post #15 by its author).
 
 ## 3. Reproduction and history
 
 Upwind distance at apogee (ft):
 
-| mph | before #3220 | after #3220 | `unstable` | OR 23.09 (thread) | RASAero II (thread) |
-|---:|---:|---:|---:|---:|---:|
-| 5 | 322 | 427 | 366 | 327 | 375 |
-| 10 | 533 | 790 | 673 | 530 | 698 |
-| 15 | 586 | 1066 | 904 | 585 | 1016 |
-| 20 | 427 | 1247 | 1055 | 421 | 1324 |
-| 25 | −105 | 1307 | 1106 | −118 | 1587 |
-| 30 | −1857 | 1142 | 975 | −1930 | 1801 |
+| mph | before #3220 | after #3220 | `unstable` | OR 23.09 (thread) | RockSim-Barrowman (thread) | RASAero II (thread) |
+|---:|---:|---:|---:|---:|---:|---:|
+| 5 | 322 | 427 | 366 | 327 | 416 | 375 |
+| 10 | 533 | 790 | 673 | 530 | 756 | 698 |
+| 15 | 586 | 1066 | 904 | 585 | 1048 | 1016 |
+| 20 | 427 | 1247 | 1055 | 421 | 1296 | 1324 |
+| 25 | −105 | 1307 | 1106 | −118 | 1506 | 1587 |
+| 30 | −1857 | 1142 | 975 | −1930 | 1677 | 1801 |
+
+The table was transcribed by hand from the thread's image. An independent transcription by the
+FusionSpace HPR project (nrdptel/fusionspace-eridanus PR #1023, two separate readings) agrees in every
+upwind cell.
 
 The changes after #3220 were located by first-parent bisection, measuring both metrics at every step.
 Each traces to an intended, documented fix:
